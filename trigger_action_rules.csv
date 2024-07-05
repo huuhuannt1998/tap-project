@@ -1,0 +1,36 @@
+Trigger Action Rule
+Sure! Here are a few Trigger-Action rules based on the devices in the SmartThings account:
+""
+1. **Rule: Motion-Activated Light Switch**
+"   - **Trigger**: Motion detected by ""Motion Sensor""."
+"   - **Action**: Turn on ""Aeotec Outlet 1""."
+""
+2. **Rule: Auto-Off Light Switch**
+"   - **Trigger**: No motion detected by ""Motion Sensor"" for 10 minutes."
+"   - **Action**: Turn off ""Aeotec Outlet 1""."
+""
+3. **Rule: Power Consumption Alert**
+"   - **Trigger**: Power consumption of ""Centralite Outlet 1"" exceeds 1000W."
+   - **Action**: Send a notification to the user.
+""
+4. **Rule: Temperature-Based Alert**
+"   - **Trigger**: Temperature reading from ""Motion Sensor"" exceeds 30°C."
+   - **Action**: Send a notification to the user.
+""
+5. **Rule: Firmware Update Reminder**
+"   - **Trigger**: Firmware update available for ""Centralite Outlet 1""."
+   - **Action**: Send a notification to the user to update the firmware.
+""
+6. **Rule: Regular Status Check**
+   - **Trigger**: Every day at 8:00 AM.
+"   - **Action**: Refresh the status of ""Aeotec Outlet 1"" and ""Centralite Outlet 1""."
+""
+7. **Rule: Energy Usage Report**
+   - **Trigger**: Every Monday at 9:00 AM.
+"   - **Action**: Send a summary report of energy usage from ""Aeotec Outlet 1"" and ""Centralite Outlet 1"" to the user."
+""
+8. **Rule: Manual Refresh**
+   - **Trigger**: User presses a button in the app.
+"   - **Action**: Refresh the status of ""Motion Sensor"", ""Aeotec Outlet 1"", and ""Centralite Outlet 1""."
+""
+These rules leverage the capabilities of your devices to create a more automated and responsive smart home environment. You can customize these rules further according to your specific needs and preferences.

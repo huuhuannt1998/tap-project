@@ -1,0 +1,46 @@
+Trigger Action Rule
+"Certainly! Based on the devices in your SmartThings account, let's create a Trigger-Action rule. This rule will turn on the ""Aeotec Outlet 1"" whenever motion is detected by the ""Motion Sensor"". Here are the details:
+
+**Trigger-Action Rule:**
+- **Trigger:** Motion detected by ""Motion Sensor""
+- **Action:** Turn on ""Aeotec Outlet 1""
+
+Here is how you can configure this rule:
+
+1. **Open the SmartThings App:**
+   - Launch the SmartThings app on your smartphone or access the SmartThings web interface.
+
+2. **Navigate to Automations:**
+   - Go to the ""Automations"" tab where you can create and manage your automation rules.
+
+3. **Create a New Automation:**
+   - Tap on the ""+"" or ""Add Automation"" button to create a new rule.
+
+4. **Configure the Trigger:**
+   - **Select Trigger Device:** Choose the ""Motion Sensor"" (label: Motion Sensor).
+   - **Select Trigger Condition:** Select ""Motion Detected"" as the trigger condition.
+
+5. **Configure the Action:**
+   - **Select Action Device:** Choose the ""Aeotec Outlet 1"" (label: Aeotec Outlet 1).
+   - **Select Action:** Set the action to ""Turn On"".
+
+6. **Save the Automation:**
+   - Give your automation rule a name, such as ""Turn On Outlet on Motion"".
+   - Save the automation rule.
+
+Here's a more detailed example of how the rule might look:
+
+### Trigger
+- **Device:** Motion Sensor
+- **Condition:** Motion Detected
+
+### Action
+- **Device:** Aeotec Outlet 1
+- **Action:** Turn On
+
+### Rule Name
+- **Name:** Turn On Outlet on Motion
+
+Once this automation is set up, every time the motion sensor detects motion, it will automatically turn on the Aeotec outlet, potentially powering any device connected to it.
+
+If you need further assistance or have specific requirements for the rule, feel free to ask!"
