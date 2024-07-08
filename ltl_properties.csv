@@ -1,0 +1,50 @@
+"Sure, let's break this down step-by-step.
+
+### Trigger-Action Rules
+
+1. **If the motion sensor is active, turn on the Aeotec Outlet 1.**
+2. **If the motion sensor is active, turn on the Centralite Outlet 1.**
+
+### Linear Temporal Logic (LTL)
+
+Based on the rules, we can write the LTL formulas as follows:
+
+1. **G (motion_sensor_active -> F switch_on_Aeotec_Outlet_1)**
+2. **G (motion_sensor_active -> F switch_on_Centralite_Outlet_1)**
+
+### Full LTL Representation
+
+Combining both LTL formulas into a single representation for the given task:
+
+\[ G \left( \text{motion\_sensor\_active} \rightarrow F \left( \text{switch\_on\_Aeotec\_Outlet\_1} \right) \right) \]
+
+\[ G \left( \text{motion\_sensor\_active} \rightarrow F \left( \text{switch\_on\_Centralite\_Outlet\_1} \right) \right) \]
+
+### Explanation of LTL Formulas
+
+- **G (motion_sensor_active -> F switch_on_Aeotec_Outlet_1)**:
+  - **G**: Globally (always in the future)
+  - **motion_sensor_active ->**: If the motion sensor is active
+  - **F switch_on_Aeotec_Outlet_1**: Eventually, the Aeotec Outlet 1 will be turned on
+
+- **G (motion_sensor_active -> F switch_on_Centralite_Outlet_1)**:
+  - **G**: Globally (always in the future)
+  - **motion_sensor_active ->**: If the motion sensor is active
+  - **F switch_on_Centralite_Outlet_1**: Eventually, the Centralite Outlet 1 will be turned on
+
+This way, whenever the motion sensor detects activity, the specified outlets will eventually turn on.","### Properties
+1. **Event**: Motion sensor is active
+2. **Action**: Turn on the switches (Aeotec Outlet 1 and Centralite Outlet 1)
+
+### Linear Temporal Logic (LTL)
+```
+G (motion_sensor_active -> F switch_on_Aeotec_Outlet_1)
+G (motion_sensor_active -> F switch_on_Centralite_Outlet_1)
+```
+
+Explanation:
+- **G**: Globally (always)
+- **F**: Finally (eventually)
+- **motion_sensor_active**: The condition when the motion sensor is active
+- **switch_on_Aeotec_Outlet_1**: The action to turn on the Aeotec Outlet 1
+- **switch_on_Centralite_Outlet_1**: The action to turn on the Centralite Outlet 1"

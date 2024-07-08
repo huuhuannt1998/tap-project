@@ -1,46 +1,39 @@
 Trigger Action Rule
-"Certainly! Based on the devices in your SmartThings account, let's create a Trigger-Action rule. This rule will turn on the ""Aeotec Outlet 1"" whenever motion is detected by the ""Motion Sensor"". Here are the details:
+"Certainly! Based on the devices in your SmartThings account, I'll create a Trigger-Action rule. Let's assume you want to create a rule where if motion is detected by the ""Motion Sensor"" (deviceId: `badd4ded-6183-4fb6-928c-179dcd6d1229`), then the ""Aeotec Outlet 1"" (deviceId: `7b66afce-2f5a-4bc4-b55f-6b949389f86d`) should turn on.
 
-**Trigger-Action Rule:**
-- **Trigger:** Motion detected by ""Motion Sensor""
-- **Action:** Turn on ""Aeotec Outlet 1""
+Here is the Trigger-Action rule:
 
-Here is how you can configure this rule:
+```json
+{
+    ""name"": ""Motion Detected - Turn On Outlet"",
+    ""trigger"": {
+        ""deviceId"": ""badd4ded-6183-4fb6-928c-179dcd6d1229"",
+        ""componentId"": ""main"",
+        ""capability"": ""motionSensor"",
+        ""attribute"": ""motion"",
+        ""value"": ""active""
+    },
+    ""action"": {
+        ""deviceId"": ""7b66afce-2f5a-4bc4-b55f-6b949389f86d"",
+        ""componentId"": ""main"",
+        ""capability"": ""switch"",
+        ""command"": ""on""
+    }
+}
+```
 
-1. **Open the SmartThings App:**
-   - Launch the SmartThings app on your smartphone or access the SmartThings web interface.
+### Explanation:
+- **Trigger**:
+  - **deviceId**: `badd4ded-6183-4fb6-928c-179dcd6d1229` (Motion Sensor)
+  - **componentId**: `main` (main component of the device)
+  - **capability**: `motionSensor` (capability to detect motion)
+  - **attribute**: `motion` (attribute within the capability to monitor)
+  - **value**: `active` (the attribute value that triggers the action)
 
-2. **Navigate to Automations:**
-   - Go to the ""Automations"" tab where you can create and manage your automation rules.
+- **Action**:
+  - **deviceId**: `7b66afce-2f5a-4bc4-b55f-6b949389f86d` (Aeotec Outlet 1)
+  - **componentId**: `main` (main component of the device)
+  - **capability**: `switch` (capability to control the switch)
+  - **command**: `on` (command to turn the switch on)
 
-3. **Create a New Automation:**
-   - Tap on the ""+"" or ""Add Automation"" button to create a new rule.
-
-4. **Configure the Trigger:**
-   - **Select Trigger Device:** Choose the ""Motion Sensor"" (label: Motion Sensor).
-   - **Select Trigger Condition:** Select ""Motion Detected"" as the trigger condition.
-
-5. **Configure the Action:**
-   - **Select Action Device:** Choose the ""Aeotec Outlet 1"" (label: Aeotec Outlet 1).
-   - **Select Action:** Set the action to ""Turn On"".
-
-6. **Save the Automation:**
-   - Give your automation rule a name, such as ""Turn On Outlet on Motion"".
-   - Save the automation rule.
-
-Here's a more detailed example of how the rule might look:
-
-### Trigger
-- **Device:** Motion Sensor
-- **Condition:** Motion Detected
-
-### Action
-- **Device:** Aeotec Outlet 1
-- **Action:** Turn On
-
-### Rule Name
-- **Name:** Turn On Outlet on Motion
-
-Once this automation is set up, every time the motion sensor detects motion, it will automatically turn on the Aeotec outlet, potentially powering any device connected to it.
-
-If you need further assistance or have specific requirements for the rule, feel free to ask!"
+This rule will ensure that whenever motion is detected by the Motion Sensor, the Aeotec Outlet 1 will be turned on."
