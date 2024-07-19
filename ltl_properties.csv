@@ -1,50 +1,53 @@
-"Sure, let's break this down step-by-step.
+"Sure, let's start by generating the Trigger-Action rules and then convert them to Linear Temporal Logic (LTL).
 
-### Trigger-Action Rules
+### Trigger-Action Rule
+1. **Trigger**: Motion sensor detects motion.
+2. **Action**: Turn on the Aeotec switch (Aeotec Outlet 1).
 
-1. **If the motion sensor is active, turn on the Aeotec Outlet 1.**
-2. **If the motion sensor is active, turn on the Centralite Outlet 1.**
+### Linear Temporal Logic (LTL) Representation
+The LTL formula that represents this behavior is:
 
+\[ G (\text{motion\_sensor\_motion\_detected} \rightarrow F \text{switch\_on\_Aeotec\_Outlet\_1}) \]
+
+Where:
+- \( G \) stands for ""Globally,"" indicating that the rule applies at all times.
+- \( \rightarrow \) stands for ""implies.""
+- \( F \) stands for ""Finally,"" indicating that at some point in the future, the action will occur if the trigger is true.
+
+In plain English, this LTL formula means that globally, whenever the motion sensor detects motion, it will eventually cause the Aeotec switch to turn on.
+
+### Detailed Explanation of the Formula
+- **Globally (G)**: The rule should always be active.
+- **Trigger (motion_sensor_motion_detected)**: The motion sensor detects motion.
+- **Implies (→)**: If the trigger condition is true, then...
+- **Finally (F)**: ...eventually...
+- **Action (switch_on_Aeotec_Outlet_1)**: ...the Aeotec switch will turn on.
+
+This ensures that every time the motion sensor detects motion, the Aeotec switch is guaranteed to turn on at some point in the future.","### Properties from User Input
+
+1. **Motion Sensor**: The device that detects motion.
+    - Device ID: `badd4ded-6183-4fb6-928c-179dcd6d1229`
+    - Label: ""Motion Sensor""
+    - Capability: ""motionSensor""
+
+2. **Centralite Switch**: The switch that needs to be turned on.
+    - Device ID: `03f87109-2da4-4376-8372-580372d9ded6`
+    - Label: ""Centralite Outlet 1""
+    - Capability: ""switch""
+    
 ### Linear Temporal Logic (LTL)
 
-Based on the rules, we can write the LTL formulas as follows:
+The LTL formula to express that whenever the motion sensor detects motion, the Centralite switch should eventually be turned on can be written as:
 
-1. **G (motion_sensor_active -> F switch_on_Aeotec_Outlet_1)**
-2. **G (motion_sensor_active -> F switch_on_Centralite_Outlet_1)**
+\[ \mathbf{G} (\text{motion\_sensor\_active} \rightarrow \mathbf{F} \text{switch\_on\_Centralite\_Outlet\_1}) \]
 
-### Full LTL Representation
+### Explanation
 
-Combining both LTL formulas into a single representation for the given task:
+- **G** (Globally): Specifies that the condition should hold at all times.
+- **motion\_sensor\_active**: Represents the event when the motion sensor detects motion.
+- **F** (Finally): Specifies that the condition should eventually hold.
+- **switch\_on\_Centralite\_Outlet\_1**: Represents the event where the Centralite switch is turned on.
 
-\[ G \left( \text{motion\_sensor\_active} \rightarrow F \left( \text{switch\_on\_Aeotec\_Outlet\_1} \right) \right) \]
+### Final LTL Formula
 
-\[ G \left( \text{motion\_sensor\_active} \rightarrow F \left( \text{switch\_on\_Centralite\_Outlet\_1} \right) \right) \]
-
-### Explanation of LTL Formulas
-
-- **G (motion_sensor_active -> F switch_on_Aeotec_Outlet_1)**:
-  - **G**: Globally (always in the future)
-  - **motion_sensor_active ->**: If the motion sensor is active
-  - **F switch_on_Aeotec_Outlet_1**: Eventually, the Aeotec Outlet 1 will be turned on
-
-- **G (motion_sensor_active -> F switch_on_Centralite_Outlet_1)**:
-  - **G**: Globally (always in the future)
-  - **motion_sensor_active ->**: If the motion sensor is active
-  - **F switch_on_Centralite_Outlet_1**: Eventually, the Centralite Outlet 1 will be turned on
-
-This way, whenever the motion sensor detects activity, the specified outlets will eventually turn on.","### Properties
-1. **Event**: Motion sensor is active
-2. **Action**: Turn on the switches (Aeotec Outlet 1 and Centralite Outlet 1)
-
-### Linear Temporal Logic (LTL)
-```
-G (motion_sensor_active -> F switch_on_Aeotec_Outlet_1)
-G (motion_sensor_active -> F switch_on_Centralite_Outlet_1)
-```
-
-Explanation:
-- **G**: Globally (always)
-- **F**: Finally (eventually)
-- **motion_sensor_active**: The condition when the motion sensor is active
-- **switch_on_Aeotec_Outlet_1**: The action to turn on the Aeotec Outlet 1
-- **switch_on_Centralite_Outlet_1**: The action to turn on the Centralite Outlet 1"
+\[ \mathbf{G} (\text{motion\_sensor\_active} \rightarrow \mathbf{F} \text{switch\_on\_Centralite\_Outlet\_1}) \]"
