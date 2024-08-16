@@ -1,0 +1,51 @@
+,TAP_rule,LTL_formula,Safety_property,Is_safe
+0,Start the dishwasher at 10 PM,G (time_10_PM -> dishwasher_on),Routine: dishwashing at night,TRUE
+1,Deactivate the alarm when the owner arrives,G (owner_arrives -> alarm_off),Convenience: alarm off when owner arrives,TRUE
+2,Turn the heat up to maximum when temperature d...,G (temp_below_60 -> heat_max),Safety: temperature should not exceed 80 degrees,FALSE
+3,Turn off the dishwasher at 12 AM,G (time_12_AM -> dishwasher_off),Energy efficiency: dishwasher off by midnight,TRUE
+4,Turn on the fan when temperature is above 75,G (temp_above_75 -> fan_on),Energy efficiency: fan should only run when ne...,TRUE
+5,Turn off the dishwasher at 12 AM,G (time_12_AM -> dishwasher_off),Energy efficiency: dishwasher off by midnight,TRUE
+6,Turn the heat up to maximum when temperature d...,G (temp_below_60 -> heat_max),Safety: temperature should not exceed 80 degrees,FALSE
+7,Turn on the fan when temperature is above 75,G (temp_above_75 -> fan_on),Energy efficiency: fan should only run when ne...,TRUE
+8,Close the garage door at 11 PM,G (time_11_PM -> garage_closed),Security: garage closed at night,TRUE
+9,Turn the heat up to maximum when temperature d...,G (temp_below_60 -> heat_max),Safety: temperature should not exceed 80 degrees,FALSE
+10,Turn on the water heater at 6 AM,G (time_6_AM -> water_heater_on),Comfort: water heater on in the morning,TRUE
+11,Turn off the outdoor lights at dawn,G (dawn -> outdoor_lights_off),Energy efficiency: lights off at dawn,TRUE
+12,Lock all windows at night,G (time_night -> windows_locked),Security: windows must be locked at night,TRUE
+13,Turn the heat up to maximum when temperature d...,G (temp_below_60 -> heat_max),Safety: temperature should not exceed 80 degrees,FALSE
+14,Stop playing music when leaving the house,G (leaving_house -> music_stop),Energy efficiency: stop music when leaving,TRUE
+15,Turn on the sprinklers at 6 AM,G (time_6_AM -> sprinklers_on),Water conservation,TRUE
+16,Turn off the doorbell camera when the owner is...,G (owner_home -> camera_off),Privacy: camera off when home,TRUE
+17,Start the dishwasher at 10 PM,G (time_10_PM -> dishwasher_on),Routine: dishwashing at night,TRUE
+18,Turn off the oven when smoke is detected,G (smoke_detected -> oven_off),Fire safety: oven should be off when smoke is ...,TRUE
+19,Turn on the humidifier when humidity is low,G (humidity_low -> humidifier_on),Health: maintain optimal humidity,TRUE
+20,Turn on the bedroom lights at 7 AM,G (time_7_AM -> bedroom_lights_on),Routine: lights on in the morning,TRUE
+21,Activate the robot vacuum at 2 PM,G (time_2_PM -> vacuum_on),Cleanliness: vacuum in the afternoon,TRUE
+22,Start the coffee maker at 6 AM,G (time_6_AM -> coffee_on),Convenience: coffee ready in the morning,TRUE
+23,Turn off the air purifier at 10 PM,G (time_10_PM -> purifier_off),Energy efficiency: purifier off at night,TRUE
+24,Deactivate the robot vacuum at 4 PM,G (time_4_PM -> vacuum_off),Energy efficiency: vacuum off by evening,TRUE
+25,Turn off the outdoor lights at dawn,G (dawn -> outdoor_lights_off),Energy efficiency: lights off at dawn,TRUE
+26,Play music at 7 AM,G (time_7_AM -> music_play),Noise control: music should not play before 6 AM,FALSE
+27,Turn off the humidifier when humidity is high,G (humidity_high -> humidifier_off),Energy efficiency: avoid excessive humidity,TRUE
+28,Deactivate the robot vacuum at 4 PM,G (time_4_PM -> vacuum_off),Energy efficiency: vacuum off by evening,TRUE
+29,Turn off the humidifier when humidity is high,G (humidity_high -> humidifier_off),Energy efficiency: avoid excessive humidity,TRUE
+30,Open the garage door when the car arrives,G (car_arrives -> garage_open),Safety: garage door should not open when no ca...,FALSE
+31,Turn off the dishwasher at 12 AM,G (time_12_AM -> dishwasher_off),Energy efficiency: dishwasher off by midnight,TRUE
+32,Turn the heat up to maximum when temperature d...,G (temp_below_60 -> heat_max),Safety: temperature should not exceed 80 degrees,FALSE
+33,Deactivate the garden lights at 6 AM,G (time_6_AM -> garden_lights_off),Energy efficiency: garden lights off in the mo...,TRUE
+34,Turn off the doorbell camera when the owner is...,G (owner_home -> camera_off),Privacy: camera off when home,TRUE
+35,Activate the driveway lights when motion is de...,G (motion_detected -> driveway_lights_on),Security: driveway lights on when needed,TRUE
+36,Deactivate the robot vacuum at 4 PM,G (time_4_PM -> vacuum_off),Energy efficiency: vacuum off by evening,TRUE
+37,Turn on the sprinklers at 6 AM,G (time_6_AM -> sprinklers_on),Water conservation,TRUE
+38,Start the washing machine at 9 AM,G (time_9_AM -> washer_on),Routine: laundry in the morning,TRUE
+39,Turn off the doorbell camera when the owner is...,G (owner_home -> camera_off),Privacy: camera off when home,TRUE
+40,Deactivate the robot vacuum at 4 PM,G (time_4_PM -> vacuum_off),Energy efficiency: vacuum off by evening,TRUE
+41,Turn off the outdoor lights at dawn,G (dawn -> outdoor_lights_off),Energy efficiency: lights off at dawn,TRUE
+42,Activate the doorbell camera when motion is de...,G (motion_detected -> camera_on),Security: monitor entrance with camera,TRUE
+43,Turn off the doorbell camera when the owner is...,G (owner_home -> camera_off),Privacy: camera off when home,TRUE
+44,Play news on the smart speaker at 7 AM,G (time_7_AM -> news_play),Routine: news in the morning,TRUE
+45,Turn off the air purifier at 10 PM,G (time_10_PM -> purifier_off),Energy efficiency: purifier off at night,TRUE
+46,Lock the front door at 10 PM,G (time_10_PM -> door_locked),Security: doors must be locked after 10 PM,TRUE
+47,Activate the lawn mower at 8 AM,G (time_8_AM -> mower_on),Lawn care: mow in the morning,TRUE
+48,Activate the lawn mower at 8 AM,G (time_8_AM -> mower_on),Lawn care: mow in the morning,TRUE
+49,Turn off the outdoor lights at dawn,G (dawn -> outdoor_lights_off),Energy efficiency: lights off at dawn,TRUE

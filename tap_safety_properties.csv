@@ -1,0 +1,51 @@
+TAP_rule,Safety_property
+Start the dishwasher at 10 PM,Routine: dishwashing at night
+Deactivate the alarm when the owner arrives,Convenience: alarm off when owner arrives
+Turn the heat up to maximum when temperature drops below 60,Safety: temperature should not exceed 80 degrees
+Turn off the dishwasher at 12 AM,Energy efficiency: dishwasher off by midnight
+Turn on the fan when temperature is above 75,Energy efficiency: fan should only run when needed
+Turn off the dishwasher at 12 AM,Energy efficiency: dishwasher off by midnight
+Turn the heat up to maximum when temperature drops below 60,Safety: temperature should not exceed 80 degrees
+Turn on the fan when temperature is above 75,Energy efficiency: fan should only run when needed
+Close the garage door at 11 PM,Security: garage closed at night
+Turn the heat up to maximum when temperature drops below 60,Safety: temperature should not exceed 80 degrees
+Turn on the water heater at 6 AM,Comfort: water heater on in the morning
+Turn off the outdoor lights at dawn,Energy efficiency: lights off at dawn
+Lock all windows at night,Security: windows must be locked at night
+Turn the heat up to maximum when temperature drops below 60,Safety: temperature should not exceed 80 degrees
+Stop playing music when leaving the house,Energy efficiency: stop music when leaving
+Turn on the sprinklers at 6 AM,Water conservation
+Turn off the doorbell camera when the owner is home,Privacy: camera off when home
+Start the dishwasher at 10 PM,Routine: dishwashing at night
+Turn off the oven when smoke is detected,Fire safety: oven should be off when smoke is detected
+Turn on the humidifier when humidity is low,Health: maintain optimal humidity
+Turn on the bedroom lights at 7 AM,Routine: lights on in the morning
+Activate the robot vacuum at 2 PM,Cleanliness: vacuum in the afternoon
+Start the coffee maker at 6 AM,Convenience: coffee ready in the morning
+Turn off the air purifier at 10 PM,Energy efficiency: purifier off at night
+Deactivate the robot vacuum at 4 PM,Energy efficiency: vacuum off by evening
+Turn off the outdoor lights at dawn,Energy efficiency: lights off at dawn
+Play music at 7 AM,Noise control: music should not play before 6 AM
+Turn off the humidifier when humidity is high,Energy efficiency: avoid excessive humidity
+Deactivate the robot vacuum at 4 PM,Energy efficiency: vacuum off by evening
+Turn off the humidifier when humidity is high,Energy efficiency: avoid excessive humidity
+Open the garage door when the car arrives,Safety: garage door should not open when no car is detected
+Turn off the dishwasher at 12 AM,Energy efficiency: dishwasher off by midnight
+Turn the heat up to maximum when temperature drops below 60,Safety: temperature should not exceed 80 degrees
+Deactivate the garden lights at 6 AM,Energy efficiency: garden lights off in the morning
+Turn off the doorbell camera when the owner is home,Privacy: camera off when home
+Activate the driveway lights when motion is detected,Security: driveway lights on when needed
+Deactivate the robot vacuum at 4 PM,Energy efficiency: vacuum off by evening
+Turn on the sprinklers at 6 AM,Water conservation
+Start the washing machine at 9 AM,Routine: laundry in the morning
+Turn off the doorbell camera when the owner is home,Privacy: camera off when home
+Deactivate the robot vacuum at 4 PM,Energy efficiency: vacuum off by evening
+Turn off the outdoor lights at dawn,Energy efficiency: lights off at dawn
+Activate the doorbell camera when motion is detected,Security: monitor entrance with camera
+Turn off the doorbell camera when the owner is home,Privacy: camera off when home
+Play news on the smart speaker at 7 AM,Routine: news in the morning
+Turn off the air purifier at 10 PM,Energy efficiency: purifier off at night
+Lock the front door at 10 PM,Security: doors must be locked after 10 PM
+Activate the lawn mower at 8 AM,Lawn care: mow in the morning
+Activate the lawn mower at 8 AM,Lawn care: mow in the morning
+Turn off the outdoor lights at dawn,Energy efficiency: lights off at dawn

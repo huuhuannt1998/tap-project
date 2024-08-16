@@ -1,37 +1,9 @@
-
 MODULE main
 VAR
-  door : {locked, unlocked};
-  thermostat : 0..30;
-  light : {on, off};
-  presence : boolean;
-
+  temperature_sensor : boolean;
+  thermostat : boolean;
 ASSIGN
-  init(door) := locked;
-  init(thermostat) := 20;
-  init(light) := off;
-  init(presence) := FALSE;
+  init(temperature_sensor) := FALSE;
+  init(thermostat) := FALSE;
 
-  next(door) := case
-    presence & (door = locked) : {locked, unlocked};
-    !presence : locked;
-    TRUE : door;
-    esac;
-
-  next(thermostat) := case
-    thermostat < 30 : thermostat + 1;
-    thermostat = 30 : thermostat;
-    TRUE : thermostat;
-    esac;
-
-  next(light) := case
-    presence & (light = off) : on;
-    !presence : off;
-    TRUE : light;
-    esac;
-
-  next(presence) := {TRUE, FALSE};
-
-LTLSPEC G (!presence -> F door = locked) -- Always, if presence is true, eventually the door will be locked
-LTLSPEC G (thermostat <= 25) -- Always, the thermostat is less than or equal to 25
-LTLSPEC G (presence -> F light = on) -- Always, if presence is true, eventually the light will be on
+LTLSPEC G (temperature_value < 60 -> F heat_level = maximum)

@@ -1,0 +1,5 @@
+Turn the heat up to maximum when temperature drops below 60	G (temp_below_60 -> heat_max)	Safety: temperature should not exceed 80 degrees	False "Turn the heat up to a safe level (e.g., 75 degrees) when the temperature drops below 60."
+Turn on the fan when temperature is above 75	G (temp_below_60 -> heat_max)	Energy efficiency: fan should only run when needed	False "Turn on the fan when temperature is above 75 and there is no other cooling mechanism available"
+Play music at 7 AM	G (time_7_AM -> music_play)	Noise control: music should not play before 6 AM	False "Play music if the current time is after 6 AM"
+Open the garage door when the car arrives	G (car_arrives -> garage_open)	Safety: garage door should not open when no car is detected	False "Trigger: Car is detected. Condition: The car arrives and is detected. Action: Open the garage door"
+Unlock the front door all day G (time_all_day -> door_unlocked) Security: doors should not be unlocked all day False "If the time is between 8 AM and 8 PM, and the owner is home, then unlock the front door."

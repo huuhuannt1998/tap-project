@@ -1,0 +1,752 @@
+[
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Start the dishwasher at 10 PM",
+    "output": "LTL formula: G (time_10_PM -> dishwasher_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Start the dishwasher at 10 PM",
+    "output": "Safety property: Routine: dishwashing at night"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Start the dishwasher at 10 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Deactivate the alarm when the owner arrives",
+    "output": "LTL formula: G (owner_arrives -> alarm_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Deactivate the alarm when the owner arrives",
+    "output": "Safety property: Convenience: alarm off when owner arrives"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Deactivate the alarm when the owner arrives",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "LTL formula: G (temp_below_60 -> heat_max)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Safety property: Safety: temperature should not exceed 80 degrees"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Is_safe: False"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "LTL formula: G (time_12_AM -> dishwasher_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "Safety property: Energy efficiency: dishwasher off by midnight"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn on the fan when temperature is above 75",
+    "output": "LTL formula: G (temp_above_75 -> fan_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn on the fan when temperature is above 75",
+    "output": "Safety property: Energy efficiency: fan should only run when ne..."
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn on the fan when temperature is above 75",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "LTL formula: G (time_12_AM -> dishwasher_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "Safety property: Energy efficiency: dishwasher off by midnight"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "LTL formula: G (temp_below_60 -> heat_max)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Safety property: Safety: temperature should not exceed 80 degrees"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Is_safe: False"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn on the fan when temperature is above 75",
+    "output": "LTL formula: G (temp_above_75 -> fan_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn on the fan when temperature is above 75",
+    "output": "Safety property: Energy efficiency: fan should only run when ne..."
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn on the fan when temperature is above 75",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Close the garage door at 11 PM",
+    "output": "LTL formula: G (time_11_PM -> garage_closed)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Close the garage door at 11 PM",
+    "output": "Safety property: Security: garage closed at night"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Close the garage door at 11 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "LTL formula: G (temp_below_60 -> heat_max)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Safety property: Safety: temperature should not exceed 80 degrees"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Is_safe: False"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn on the water heater at 6 AM",
+    "output": "LTL formula: G (time_6_AM -> water_heater_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn on the water heater at 6 AM",
+    "output": "Safety property: Comfort: water heater on in the morning"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn on the water heater at 6 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "LTL formula: G (dawn -> outdoor_lights_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Safety property: Energy efficiency: lights off at dawn"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Lock all windows at night",
+    "output": "LTL formula: G (time_night -> windows_locked)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Lock all windows at night",
+    "output": "Safety property: Security: windows must be locked at night"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Lock all windows at night",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "LTL formula: G (temp_below_60 -> heat_max)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Safety property: Safety: temperature should not exceed 80 degrees"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Is_safe: False"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Stop playing music when leaving the house",
+    "output": "LTL formula: G (leaving_house -> music_stop)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Stop playing music when leaving the house",
+    "output": "Safety property: Energy efficiency: stop music when leaving"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Stop playing music when leaving the house",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn on the sprinklers at 6 AM",
+    "output": "LTL formula: G (time_6_AM -> sprinklers_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn on the sprinklers at 6 AM",
+    "output": "Safety property: Water conservation"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn on the sprinklers at 6 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "LTL formula: G (owner_home -> camera_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Safety property: Privacy: camera off when home"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Start the dishwasher at 10 PM",
+    "output": "LTL formula: G (time_10_PM -> dishwasher_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Start the dishwasher at 10 PM",
+    "output": "Safety property: Routine: dishwashing at night"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Start the dishwasher at 10 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the oven when smoke is detected",
+    "output": "LTL formula: G (smoke_detected -> oven_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the oven when smoke is detected",
+    "output": "Safety property: Fire safety: oven should be off when smoke is ..."
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the oven when smoke is detected",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn on the humidifier when humidity is low",
+    "output": "LTL formula: G (humidity_low -> humidifier_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn on the humidifier when humidity is low",
+    "output": "Safety property: Health: maintain optimal humidity"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn on the humidifier when humidity is low",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn on the bedroom lights at 7 AM",
+    "output": "LTL formula: G (time_7_AM -> bedroom_lights_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn on the bedroom lights at 7 AM",
+    "output": "Safety property: Routine: lights on in the morning"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn on the bedroom lights at 7 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Activate the robot vacuum at 2 PM",
+    "output": "LTL formula: G (time_2_PM -> vacuum_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Activate the robot vacuum at 2 PM",
+    "output": "Safety property: Cleanliness: vacuum in the afternoon"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Activate the robot vacuum at 2 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Start the coffee maker at 6 AM",
+    "output": "LTL formula: G (time_6_AM -> coffee_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Start the coffee maker at 6 AM",
+    "output": "Safety property: Convenience: coffee ready in the morning"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Start the coffee maker at 6 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the air purifier at 10 PM",
+    "output": "LTL formula: G (time_10_PM -> purifier_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the air purifier at 10 PM",
+    "output": "Safety property: Energy efficiency: purifier off at night"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the air purifier at 10 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "LTL formula: G (time_4_PM -> vacuum_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Safety property: Energy efficiency: vacuum off by evening"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "LTL formula: G (dawn -> outdoor_lights_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Safety property: Energy efficiency: lights off at dawn"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Play music at 7 AM",
+    "output": "LTL formula: G (time_7_AM -> music_play)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Play music at 7 AM",
+    "output": "Safety property: Noise control: music should not play before 6 AM"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Play music at 7 AM",
+    "output": "Is_safe: False"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the humidifier when humidity is high",
+    "output": "LTL formula: G (humidity_high -> humidifier_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the humidifier when humidity is high",
+    "output": "Safety property: Energy efficiency: avoid excessive humidity"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the humidifier when humidity is high",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "LTL formula: G (time_4_PM -> vacuum_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Safety property: Energy efficiency: vacuum off by evening"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the humidifier when humidity is high",
+    "output": "LTL formula: G (humidity_high -> humidifier_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the humidifier when humidity is high",
+    "output": "Safety property: Energy efficiency: avoid excessive humidity"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the humidifier when humidity is high",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Open the garage door when the car arrives",
+    "output": "LTL formula: G (car_arrives -> garage_open)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Open the garage door when the car arrives",
+    "output": "Safety property: Safety: garage door should not open when no ca..."
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Open the garage door when the car arrives",
+    "output": "Is_safe: False"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "LTL formula: G (time_12_AM -> dishwasher_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "Safety property: Energy efficiency: dishwasher off by midnight"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the dishwasher at 12 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "LTL formula: G (temp_below_60 -> heat_max)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Safety property: Safety: temperature should not exceed 80 degrees"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn the heat up to maximum when temperature d...",
+    "output": "Is_safe: False"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Deactivate the garden lights at 6 AM",
+    "output": "LTL formula: G (time_6_AM -> garden_lights_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Deactivate the garden lights at 6 AM",
+    "output": "Safety property: Energy efficiency: garden lights off in the mo..."
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Deactivate the garden lights at 6 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "LTL formula: G (owner_home -> camera_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Safety property: Privacy: camera off when home"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Activate the driveway lights when motion is de...",
+    "output": "LTL formula: G (motion_detected -> driveway_lights_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Activate the driveway lights when motion is de...",
+    "output": "Safety property: Security: driveway lights on when needed"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Activate the driveway lights when motion is de...",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "LTL formula: G (time_4_PM -> vacuum_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Safety property: Energy efficiency: vacuum off by evening"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn on the sprinklers at 6 AM",
+    "output": "LTL formula: G (time_6_AM -> sprinklers_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn on the sprinklers at 6 AM",
+    "output": "Safety property: Water conservation"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn on the sprinklers at 6 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Start the washing machine at 9 AM",
+    "output": "LTL formula: G (time_9_AM -> washer_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Start the washing machine at 9 AM",
+    "output": "Safety property: Routine: laundry in the morning"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Start the washing machine at 9 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "LTL formula: G (owner_home -> camera_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Safety property: Privacy: camera off when home"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "LTL formula: G (time_4_PM -> vacuum_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Safety property: Energy efficiency: vacuum off by evening"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Deactivate the robot vacuum at 4 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "LTL formula: G (dawn -> outdoor_lights_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Safety property: Energy efficiency: lights off at dawn"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Activate the doorbell camera when motion is de...",
+    "output": "LTL formula: G (motion_detected -> camera_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Activate the doorbell camera when motion is de...",
+    "output": "Safety property: Security: monitor entrance with camera"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Activate the doorbell camera when motion is de...",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "LTL formula: G (owner_home -> camera_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Safety property: Privacy: camera off when home"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the doorbell camera when the owner is...",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Play news on the smart speaker at 7 AM",
+    "output": "LTL formula: G (time_7_AM -> news_play)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Play news on the smart speaker at 7 AM",
+    "output": "Safety property: Routine: news in the morning"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Play news on the smart speaker at 7 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the air purifier at 10 PM",
+    "output": "LTL formula: G (time_10_PM -> purifier_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the air purifier at 10 PM",
+    "output": "Safety property: Energy efficiency: purifier off at night"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the air purifier at 10 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Lock the front door at 10 PM",
+    "output": "LTL formula: G (time_10_PM -> door_locked)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Lock the front door at 10 PM",
+    "output": "Safety property: Security: doors must be locked after 10 PM"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Lock the front door at 10 PM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Activate the lawn mower at 8 AM",
+    "output": "LTL formula: G (time_8_AM -> mower_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Activate the lawn mower at 8 AM",
+    "output": "Safety property: Lawn care: mow in the morning"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Activate the lawn mower at 8 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Activate the lawn mower at 8 AM",
+    "output": "LTL formula: G (time_8_AM -> mower_on)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Activate the lawn mower at 8 AM",
+    "output": "Safety property: Lawn care: mow in the morning"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Activate the lawn mower at 8 AM",
+    "output": "Is_safe: True"
+  },
+  {
+    "instruction": "Convert the following TAP rule to an LTL formula.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "LTL formula: G (dawn -> outdoor_lights_off)"
+  },
+  {
+    "instruction": "Identify the safety property associated with this TAP rule.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Safety property: Energy efficiency: lights off at dawn"
+  },
+  {
+    "instruction": "Determine if the following TAP rule is safe.",
+    "input": "TAP rule: Turn off the outdoor lights at dawn",
+    "output": "Is_safe: True"
+  }
+]
