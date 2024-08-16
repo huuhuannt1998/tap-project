@@ -45,9 +45,9 @@ ASSIGN
 
   next(presence) := {TRUE, FALSE};
 
-LTLSPEC G (!presence -> F door = locked) -- Always, if presence is true, eventually the door will be locked
-LTLSPEC G (thermostat <= 25) -- Always, the thermostat is less than or equal to 25
-LTLSPEC G (presence -> F light = on) -- Always, if presence is true, eventually the light will be on
+LTLSPEC G (!presence -> F door = locked)  -- Always, if presence is true, eventually the door will be locked
+LTLSPEC G (thermostat <= 25) -- Always    , the thermostat is less than or equal to 25
+LTLSPEC G (presence -> F light = on)      -- Always, if presence is true, eventually the light will be on
 """
 
 # Run model checking
