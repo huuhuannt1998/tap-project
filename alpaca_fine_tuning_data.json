@@ -1,186 +1,186 @@
 [
   {
-    "instruction": "Convert the following to an LTL formula and assess its safety.",
+    "instruction": "Convert the following to an LTL formula.",
     "input": "Start the dishwasher at 10 PM",
     "output": "G (time_10_PM -> dishwasher_on);"
   },
   {
-    "instruction": "Translate this rule into an LTL formula and check its safety.",
+    "instruction": "Translate this rule into an LTL formula.",
     "input": "Deactivate the alarm when the owner arrives",
     "output": "G (owner_arrives -> alarm_off); "
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn the heat up to maximum when temperature drops below 60",
     "output": "G (temp_below_60 -> heat_max);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn off the dishwasher at 12 AM",
     "output": "G (time_12_AM -> dishwasher_off);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn on the fan when temperature is above 75",
     "output": "G (temp_above_75 -> fan_on); "
   },
   {
-    "instruction": "Convert the following to an LTL formula and assess its safety.",
+    "instruction": "Convert the following to an LTL formula.",
     "input": "Turn off the dishwasher at 12 AM",
     "output": "G (time_12_AM -> dishwasher_off);"
   },
   {
-    "instruction": "Convert the following to an LTL formula and assess its safety.",
+    "instruction": "Convert the following to an LTL formula.",
     "input": "Close the garage door at 11 PM",
     "output": "G (time_11_PM -> garage_closed);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn on the water heater at 6 AM",
     "output": "G (time_6_AM -> water_heater_on);"
   },
   {
-    "instruction": "Convert the following to an LTL formula and assess its safety.",
+    "instruction": "Convert the following to an LTL formula.",
     "input": "Turn off the outdoor lights at dawn",
     "output": "G (dawn -> outdoor_lights_off);"
   },
   {
-    "instruction": "Generate the LTL formula for this rule and evaluate its safety.",
+    "instruction": "Generate the LTL formula for this rule.",
     "input": "Lock all windows at night",
     "output": "G (time_night -> windows_locked);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Stop playing music when leaving the house",
     "output": "G (leaving_house -> music_stop);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn on the sprinklers at 6 AM",
     "output": "G (time_6_AM -> sprinklers_on);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn off the doorbell camera when the owner is home",
     "output": "G (owner_home -> camera_off);"
   },
   {
-    "instruction": "Generate the LTL formula for this rule and evaluate its safety.",
+    "instruction": "Generate the LTL formula for this rule.",
     "input": "Start the dishwasher at 10 PM",
     "output": "G (time_10_PM -> dishwasher_on);"
   },
   {
-    "instruction": "Create an LTL formula based on the rule and check its safety.",
+    "instruction": "Create an LTL formula based on the rule.",
     "input": "Turn off the oven when smoke is detected",
     "output": "G (smoke_detected -> oven_off);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn on the humidifier when humidity is low",
     "output": "G (humidity_low -> humidifier_on);"
   },
   {
-    "instruction": "Create an LTL formula based on the rule and check its safety.",
+    "instruction": "Create an LTL formula based on the rule.",
     "input": "Turn on the bedroom lights at 7 AM",
     "output": "G (time_7_AM -> bedroom_lights_on);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Activate the robot vacuum at 2 PM",
     "output": "G (time_2_PM -> vacuum_on);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Start the coffee maker at 6 AM",
     "output": "G (time_6_AM -> coffee_on);"
   },
   {
-    "instruction": "Translate this rule into an LTL formula and check its safety.",
+    "instruction": "Translate this rule into an LTL formula.",
     "input": "Turn off the air purifier at 10 PM",
     "output": "G (time_10_PM -> purifier_off);"
   },
   {
-    "instruction": "Create an LTL formula based on the rule and check its safety.",
+    "instruction": "Create an LTL formula based on the rule.",
     "input": "Deactivate the robot vacuum at 4 PM",
     "output": "G (time_4_PM -> vacuum_off);"
   },
   {
-    "instruction": "Translate this rule into an LTL formula and check its safety.",
+    "instruction": "Translate this rule into an LTL formula.",
     "input": "Turn off the outdoor lights at dawn",
     "output": "G (dawn -> outdoor_lights_off);"
   },
   {
-    "instruction": "Translate this rule into an LTL formula and check its safety.",
+    "instruction": "Translate this rule into an LTL formula.",
     "input": "Play music at 7 AM",
     "output": "G (time_7_AM -> music_play);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Turn off the humidifier when humidity is high",
     "output": "G (humidity_high -> humidifier_off);"
   },
   {
-    "instruction": "Derive the LTL formula from this rule and determine if it's safe.",
+    "instruction": "Derive the LTL formula from this rule.",
     "input": "Deactivate the robot vacuum at 4 PM",
     "output": "G (time_4_PM -> vacuum_off);"
   },
   {
-    "instruction": "Convert the following to an LTL formula and assess its safety.",
+    "instruction": "Convert the following to an LTL formula.",
     "input": "Open the garage door when the car arrives",
     "output": "G (car_arrives -> garage_open);"
   },
   {
-    "instruction": "Generate the LTL formula for this rule and evaluate its safety.",
+    "instruction": "Generate the LTL formula for this rule.",
     "input": "Turn off the dishwasher at 12 AM",
     "output": "G (time_12_AM -> dishwasher_off);"
   },
   {
-    "instruction": "Translate this rule into an LTL formula and check its safety.",
+    "instruction": "Translate this rule into an LTL formula.",
     "input": "Deactivate the garden lights at 6 AM",
     "output": "G (time_6_AM -> garden_lights_off);"
   },
   {
-    "instruction": "Generate the LTL formula for this rule and evaluate its safety.",
+    "instruction": "Generate the LTL formula for this rule.",
     "input": "Activate the driveway lights when motion is detected",
     "output": "G (motion_detected -> driveway_lights_on);"
   },
   {
-    "instruction": "Create an LTL formula based on the rule and check its safety.",
+    "instruction": "Create an LTL formula based on the rule.",
     "input": "Turn on the sprinklers at 6 AM",
     "output": "G (time_6_AM -> sprinklers_on);"
   },
   {
-    "instruction": "Generate the LTL formula for this rule and evaluate its safety.",
+    "instruction": "Generate the LTL formula for this rule.",
     "input": "Start the washing machine at 9 AM",
     "output": "G (time_9_AM -> washer_on);"
   },
   {
-    "instruction": "Create an LTL formula based on the rule and check its safety.",
+    "instruction": "Create an LTL formula based on the rule.",
     "input": "Turn off the outdoor lights at dawn",
     "output": "G (dawn -> outdoor_lights_off);"
   },
   {
-    "instruction": "Create an LTL formula based on the rule and check its safety.",
+    "instruction": "Create an LTL formula based on the rule.",
     "input": "Play news on the smart speaker at 7 AM",
     "output": "G (time_7_AM -> news_play);"
   },
   {
-    "instruction": "Convert the following to an LTL formula and assess its safety.",
+    "instruction": "Convert the following to an LTL formula.",
     "input": "Turn off the air purifier at 10 PM",
     "output": "G (time_10_PM -> purifier_off);"
   },
   {
-    "instruction": "Translate this rule into an LTL formula and check its safety.",
+    "instruction": "Translate this rule into an LTL formula.",
     "input": "Lock the front door at 10 PM",
     "output": "G (time_10_PM -> door_locked);"
   },
   {
-    "instruction": "Create an LTL formula based on the rule and check its safety.",
+    "instruction": "Create an LTL formula based on the rule.",
     "input": "Activate the lawn mower at 8 AM",
     "output": "G (time_8_AM -> mower_on);"
   },
   {
-    "instruction": "Convert the following to an LTL formula and assess its safety.",
+    "instruction": "Convert the following to an LTL formula.",
     "input": "Turn off the outdoor lights at dawn",
     "output": "G (dawn -> outdoor_lights_off);"
   }
