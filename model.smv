@@ -1,9 +1,17 @@
 MODULE main
-VAR
-  temperature_sensor : boolean;
-  thermostat : boolean;
-ASSIGN
-  init(temperature_sensor) := FALSE;
-  init(thermostat) := FALSE;
+  VAR
+    motion_detected : boolean;
+    time_is_night : boolean;
+    light_on : boolean;
 
-LTLSPEC G (temperature_value < 60 -> F heat_level = maximum)
+  ASSIGN
+    init(light_on) := FALSE;
+
+    next(light_on) :=
+      case
+        motion_detected & time_is_night : TRUE;
+        !motion_detected | !time_is_night : FALSE;
+        TRUE : light_on;
+      esac;
+
+LTLSPEC G (motion_detected & time_is_night -> F !light_on)
