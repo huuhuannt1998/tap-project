@@ -1,902 +1,752 @@
 [
     {
-        "instruction": "Stop the Thermostat in the Bedroom 1 when door opens.",
-        "input": "when door opens in the Bedroom 1",
-        "output": "stop the Thermostat in the Bedroom 1.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_1 -> X(stop_Thermostat_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to turn off when leaving home.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(turn_off_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Window Sensor in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "turn off the Window Sensor in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(turn_off_Window_Sensor_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Lamp to turn on when door opens.",
+        "input": "Imagine you are in the Bedroom 2. You want the Lamp to turn on when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_on_Lamp_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn off the Smart Blind in the Bedroom 1 at sunrise.",
-        "input": "at sunrise in the Bedroom 1",
-        "output": "turn off the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_1 -> X(turn_off_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Light to activate at sunrise.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Light to activate at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(activate_Smart_Light_in_Bedroom_1))"
     },
     {
-        "instruction": "Deactivate the Door Sensor in the Living Room at sunset.",
-        "input": "at sunset in the Living Room",
-        "output": "deactivate the Door Sensor in the Living Room.",
-        "ltl_formula": "G(at_sunset_in_Living_Room -> X(deactivate_Door_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Smart Light to activate at sunset.",
+        "input": "Imagine you are in the Bedroom 2. You want the Smart Light to activate at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(activate_Smart_Light_in_Bedroom_2))"
     },
     {
-        "instruction": "Start the Smart Light in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "start the Smart Light in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(start_Smart_Light_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to set to when temperature above.",
+        "input": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(set_to_Ceiling_Fan_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn on the Smart Light in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "turn on the Smart Light in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(turn_on_Smart_Light_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Door Sensor to turn off when door opens.",
+        "input": "Imagine you are in the Bedroom 2. You want the Door Sensor to turn off when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_off_Door_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn off the Smart Light in the Dining Room at sunrise.",
-        "input": "at sunrise in the Dining Room",
-        "output": "turn off the Smart Light in the Dining Room.",
-        "ltl_formula": "G(at_sunrise_in_Dining_Room -> X(turn_off_Smart_Light_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Speaker to set to when temperature above.",
+        "input": "Imagine you are in the Living Room. You want the Speaker to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(set_to_Speaker_in_Living_Room))"
     },
     {
-        "instruction": "Start the Lamp in the Bedroom 2 when motion detected.",
-        "input": "when motion detected in the Bedroom 2",
-        "output": "start the Lamp in the Bedroom 2.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_2 -> X(start_Lamp_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Window Sensor to stop when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Window Sensor to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(stop_Window_Sensor_in_Bedroom_1))"
     },
     {
-        "instruction": "Deactivate the Window Sensor in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "deactivate the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(deactivate_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Lamp to activate when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Lamp to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(activate_Lamp_in_Living_Room))"
     },
     {
-        "instruction": "Activate the Window Sensor in the Living Room at sunset.",
-        "input": "at sunset in the Living Room",
-        "output": "activate the Window Sensor in the Living Room.",
-        "ltl_formula": "G(at_sunset_in_Living_Room -> X(activate_Window_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to start at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Window Sensor to start at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(start_Window_Sensor_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the TV in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "turn off the TV in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(turn_off_TV_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Thermostat to set to when leaving home.",
+        "input": "Imagine you are in the Bedroom 2. You want the Thermostat to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(set_to_Thermostat_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Speaker in the Living Room at sunrise.",
-        "input": "at sunrise in the Living Room",
-        "output": "set to the Speaker in the Living Room.",
-        "ltl_formula": "G(at_sunrise_in_Living_Room -> X(set_to_Speaker_in_Living_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to deactivate when window closes.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(deactivate_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Activate the Smart Bed in the Bedroom 1 when door opens.",
-        "input": "when door opens in the Bedroom 1",
-        "output": "activate the Smart Bed in the Bedroom 1.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_1 -> X(activate_Smart_Bed_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(start_Smart_Light_in_Bedroom_1))"
     },
     {
-        "instruction": "Set to the Window Sensor in the Dining Room when leaving home.",
-        "input": "when leaving home in the Dining Room",
-        "output": "set to the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(when_leaving_home_in_Dining_Room -> X(set_to_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Thermostat to turn on when motion detected.",
+        "input": "Imagine you are in the Bedroom 2. You want the Thermostat to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(turn_on_Thermostat_in_Bedroom_2))"
     },
     {
-        "instruction": "Activate the Thermostat in the Bedroom 2 at sunrise.",
-        "input": "at sunrise in the Bedroom 2",
-        "output": "activate the Thermostat in the Bedroom 2.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_2 -> X(activate_Thermostat_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Window Sensor to turn off when door opens.",
+        "input": "Imagine you are in the Bedroom 2. You want the Window Sensor to turn off when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_off_Window_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Activate the Smart Speaker in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "activate the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(activate_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Speaker to turn off when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Speaker to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_off_Speaker_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Smart Speaker in the Dining Room at sunrise.",
-        "input": "at sunrise in the Dining Room",
-        "output": "set to the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(at_sunrise_in_Dining_Room -> X(set_to_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to stop at sunrise.",
+        "input": "Imagine you are in the Living Room. You want the Window Sensor to stop at sunrise.",
+        "output": "G(at_sunrise_in_Living_Room -> X(stop_Window_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Turn off the TV in the Living Room at sunrise.",
-        "input": "at sunrise in the Living Room",
-        "output": "turn off the TV in the Living Room.",
-        "ltl_formula": "G(at_sunrise_in_Living_Room -> X(turn_off_TV_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to turn on when leaving home.",
+        "input": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to turn on when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(turn_on_Ceiling_Fan_in_Bedroom_2))"
     },
     {
-        "instruction": "Start the Chandelier in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "start the Chandelier in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(start_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to stop when leaving home.",
+        "input": "Imagine you are in the Living Room. You want the TV to stop when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(stop_TV_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Smart Blind in the Bedroom 1 at sunrise.",
-        "input": "at sunrise in the Bedroom 1",
-        "output": "set to the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_1 -> X(set_to_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to turn off when door opens.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to turn off when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(turn_off_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Stop the Thermostat in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "stop the Thermostat in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(stop_Thermostat_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Thermostat to turn off when leaving home.",
+        "input": "Imagine you are in the Bedroom 2. You want the Thermostat to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(turn_off_Thermostat_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn off the Smart Speaker in the Dining Room when motion detected.",
-        "input": "when motion detected in the Dining Room",
-        "output": "turn off the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(when_motion_detected_in_Dining_Room -> X(turn_off_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to start when temperature above.",
+        "input": "Imagine you are in the Dining Room. You want the Window Sensor to start when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(start_Window_Sensor_in_Dining_Room))"
     },
     {
-        "instruction": "Set to the Air Purifier in the Living Room when window closes.",
-        "input": "when window closes in the Living Room",
-        "output": "set to the Air Purifier in the Living Room.",
-        "ltl_formula": "G(when_window_closes_in_Living_Room -> X(set_to_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to activate when leaving home.",
+        "input": "Imagine you are in the Living Room. You want the TV to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(activate_TV_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Smart Light in the Bedroom 1 when temperature above.",
-        "input": "when temperature above in the Bedroom 1",
-        "output": "turn on the Smart Light in the Bedroom 1.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_1 -> X(turn_on_Smart_Light_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Air Purifier in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "turn off the Air Purifier in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(turn_off_Air_Purifier_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to start when window closes.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to start when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_1 -> X(start_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Deactivate the Door Sensor in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "deactivate the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(deactivate_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Lamp to activate when door opens.",
+        "input": "Imagine you are in the Bedroom 1. You want the Lamp to activate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(activate_Lamp_in_Bedroom_1))"
     },
     {
-        "instruction": "Stop the Door Sensor in the Bedroom 2 when leaving home.",
-        "input": "when leaving home in the Bedroom 2",
-        "output": "stop the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_2 -> X(stop_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Window Sensor to activate at sunrise.",
+        "input": "Imagine you are in the Bedroom 2. You want the Window Sensor to activate at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(activate_Window_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Activate the Lamp in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "activate the Lamp in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(activate_Lamp_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Thermostat to stop when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Thermostat to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(stop_Thermostat_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Lamp in the Living Room at sunset.",
-        "input": "at sunset in the Living Room",
-        "output": "turn on the Lamp in the Living Room.",
-        "ltl_formula": "G(at_sunset_in_Living_Room -> X(turn_on_Lamp_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Thermostat to turn off when window closes.",
+        "input": "Imagine you are in the Bedroom 2. You want the Thermostat to turn off when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(turn_off_Thermostat_in_Bedroom_2))"
     },
     {
-        "instruction": "Stop the Air Purifier in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "stop the Air Purifier in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(stop_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Smart Light to turn on when motion detected.",
+        "input": "Imagine you are in the Bedroom 2. You want the Smart Light to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(turn_on_Smart_Light_in_Bedroom_2))"
     },
     {
-        "instruction": "Deactivate the Window Sensor in the Dining Room at sunrise.",
-        "input": "at sunrise in the Dining Room",
-        "output": "deactivate the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(at_sunrise_in_Dining_Room -> X(deactivate_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to activate when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(activate_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Turn off the Door Sensor in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "turn off the Door Sensor in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(turn_off_Door_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to turn on at sunset.",
+        "input": "Imagine you are in the Living Room. You want the TV to turn on at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(turn_on_TV_in_Living_Room))"
     },
     {
-        "instruction": "Stop the Chandelier in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "stop the Chandelier in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(stop_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to stop when temperature above.",
+        "input": "Imagine you are in the Living Room. You want the TV to stop when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(stop_TV_in_Living_Room))"
     },
     {
-        "instruction": "Deactivate the Ceiling Fan in the Bedroom 2 when leaving home.",
-        "input": "when leaving home in the Bedroom 2",
-        "output": "deactivate the Ceiling Fan in the Bedroom 2.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_2 -> X(deactivate_Ceiling_Fan_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to deactivate when motion detected.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to deactivate when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(deactivate_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Set to the Air Purifier in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "set to the Air Purifier in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(set_to_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Blind to turn on when temperature above.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Blind to turn on when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_1 -> X(turn_on_Smart_Blind_in_Bedroom_1))"
     },
     {
-        "instruction": "Stop the Smart Bed in the Bedroom 1 at sunrise.",
-        "input": "at sunrise in the Bedroom 1",
-        "output": "stop the Smart Bed in the Bedroom 1.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_1 -> X(stop_Smart_Bed_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to turn off when door opens.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to turn off when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Smart Bed in the Bedroom 1 when leaving home.",
-        "input": "when leaving home in the Bedroom 1",
-        "output": "stop the Smart Bed in the Bedroom 1.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_1 -> X(stop_Smart_Bed_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Lamp to activate when temperature above.",
+        "input": "Imagine you are in the Bedroom 2. You want the Lamp to activate when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(activate_Lamp_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn off the Air Purifier in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "turn off the Air Purifier in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(turn_off_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to turn off when window closes.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to turn off when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_1 -> X(turn_off_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Start the Thermostat in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "start the Thermostat in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(start_Thermostat_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Window Sensor to turn on when door opens.",
+        "input": "Imagine you are in the Bedroom 2. You want the Window Sensor to turn on when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_on_Window_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Start the Chandelier in the Dining Room when leaving home.",
-        "input": "when leaving home in the Dining Room",
-        "output": "start the Chandelier in the Dining Room.",
-        "ltl_formula": "G(when_leaving_home_in_Dining_Room -> X(start_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to start when temperature above.",
+        "input": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to start when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(start_Ceiling_Fan_in_Bedroom_2))"
     },
     {
-        "instruction": "Stop the Chandelier in the Dining Room when window closes.",
-        "input": "when window closes in the Dining Room",
-        "output": "stop the Chandelier in the Dining Room.",
-        "ltl_formula": "G(when_window_closes_in_Dining_Room -> X(stop_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to activate at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to activate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(activate_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Start the Smart Light in the Dining Room when window closes.",
-        "input": "when window closes in the Dining Room",
-        "output": "start the Smart Light in the Dining Room.",
-        "ltl_formula": "G(when_window_closes_in_Dining_Room -> X(start_Smart_Light_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Lamp to set to at sunrise.",
+        "input": "Imagine you are in the Bedroom 2. You want the Lamp to set to at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(set_to_Lamp_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Smart Light in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "set to the Smart Light in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(set_to_Smart_Light_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to deactivate at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Speaker to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Smart_Speaker_in_Dining_Room))"
     },
     {
-        "instruction": "Turn on the Window Sensor in the Dining Room when temperature above.",
-        "input": "when temperature above in the Dining Room",
-        "output": "turn on the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(when_temperature_above_in_Dining_Room -> X(turn_on_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Speaker to turn off when leaving home.",
+        "input": "Imagine you are in the Living Room. You want the Speaker to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(turn_off_Speaker_in_Living_Room))"
     },
     {
-        "instruction": "Start the Thermostat in the Dining Room when motion detected.",
-        "input": "when motion detected in the Dining Room",
-        "output": "start the Thermostat in the Dining Room.",
-        "ltl_formula": "G(when_motion_detected_in_Dining_Room -> X(start_Thermostat_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to turn on when window closes.",
+        "input": "Imagine you are in the Living Room. You want the TV to turn on when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(turn_on_TV_in_Living_Room))"
     },
     {
-        "instruction": "Activate the Air Purifier in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "activate the Air Purifier in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(activate_Air_Purifier_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Smart Light to set to when temperature above.",
+        "input": "Imagine you are in the Bedroom 2. You want the Smart Light to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(set_to_Smart_Light_in_Bedroom_2))"
     },
     {
-        "instruction": "Activate the Thermostat in the Bedroom 1 when leaving home.",
-        "input": "when leaving home in the Bedroom 1",
-        "output": "activate the Thermostat in the Bedroom 1.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_1 -> X(activate_Thermostat_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Lamp to set to when temperature above.",
+        "input": "Imagine you are in the Bedroom 2. You want the Lamp to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(set_to_Lamp_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Smart Speaker in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "set to the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(set_to_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Door Sensor to activate when door opens.",
+        "input": "Imagine you are in the Bedroom 2. You want the Door Sensor to activate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(activate_Door_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn on the Smart Light in the Dining Room at sunrise.",
-        "input": "at sunrise in the Dining Room",
-        "output": "turn on the Smart Light in the Dining Room.",
-        "ltl_formula": "G(at_sunrise_in_Dining_Room -> X(turn_on_Smart_Light_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Chandelier in the Dining Room when leaving home.",
-        "input": "when leaving home in the Dining Room",
-        "output": "turn off the Chandelier in the Dining Room.",
-        "ltl_formula": "G(when_leaving_home_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Chandelier in the Dining Room at sunrise.",
-        "input": "at sunrise in the Dining Room",
-        "output": "turn off the Chandelier in the Dining Room.",
-        "ltl_formula": "G(at_sunrise_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to turn on when motion detected.",
+        "input": "Imagine you are in the Dining Room. You want the Window Sensor to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(turn_on_Window_Sensor_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the TV in the Living Room when window closes.",
-        "input": "when window closes in the Living Room",
-        "output": "deactivate the TV in the Living Room.",
-        "ltl_formula": "G(when_window_closes_in_Living_Room -> X(deactivate_TV_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Air Purifier to turn on when temperature above.",
+        "input": "Imagine you are in the Living Room. You want the Air Purifier to turn on when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(turn_on_Air_Purifier_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Lamp in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "set to the Lamp in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(set_to_Lamp_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to stop when window closes.",
+        "input": "Imagine you are in the Dining Room. You want the Window Sensor to stop when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(stop_Window_Sensor_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Smart Blind in the Bedroom 1 at sunrise.",
-        "input": "at sunrise in the Bedroom 1",
-        "output": "deactivate the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_1 -> X(deactivate_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to turn off at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to turn off at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(turn_off_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Set to the Door Sensor in the Living Room when window closes.",
-        "input": "when window closes in the Living Room",
-        "output": "set to the Door Sensor in the Living Room.",
-        "ltl_formula": "G(when_window_closes_in_Living_Room -> X(set_to_Door_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Ceiling Fan to turn on when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Ceiling Fan to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_on_Ceiling_Fan_in_Bedroom_1))"
     },
     {
-        "instruction": "Set to the Lamp in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "set to the Lamp in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(set_to_Lamp_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Window Sensor to deactivate when temperature above.",
+        "input": "Imagine you are in the Bedroom 2. You want the Window Sensor to deactivate when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(deactivate_Window_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Deactivate the TV in the Living Room when motion detected.",
-        "input": "when motion detected in the Living Room",
-        "output": "deactivate the TV in the Living Room.",
-        "ltl_formula": "G(when_motion_detected_in_Living_Room -> X(deactivate_TV_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(start_Smart_Light_in_Bedroom_1))"
     },
     {
-        "instruction": "Turn on the Thermostat in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "turn on the Thermostat in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(turn_on_Thermostat_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to turn on when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Door Sensor to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_on_Door_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Deactivate the Lamp in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "deactivate the Lamp in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(deactivate_Lamp_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Window Sensor to turn off when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Window Sensor to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_off_Window_Sensor_in_Bedroom_1))"
     },
     {
-        "instruction": "Stop the Speaker in the Living Room when motion detected.",
-        "input": "when motion detected in the Living Room",
-        "output": "stop the Speaker in the Living Room.",
-        "ltl_formula": "G(when_motion_detected_in_Living_Room -> X(stop_Speaker_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Air Purifier to stop when window closes.",
+        "input": "Imagine you are in the Bedroom 2. You want the Air Purifier to stop when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(stop_Air_Purifier_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Door Sensor in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "set to the Door Sensor in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(set_to_Door_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Thermostat to turn off when door opens.",
+        "input": "Imagine you are in the Living Room. You want the Thermostat to turn off when door opens.",
+        "output": "G(when_door_opens_in_Living_Room -> X(turn_off_Thermostat_in_Living_Room))"
     },
     {
-        "instruction": "Start the Speaker in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "start the Speaker in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(start_Speaker_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Air Purifier to start when window closes.",
+        "input": "Imagine you are in the Living Room. You want the Air Purifier to start when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(start_Air_Purifier_in_Living_Room))"
     },
     {
-        "instruction": "Turn off the Window Sensor in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "turn off the Window Sensor in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(turn_off_Window_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to stop when temperature above.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to stop when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(stop_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Start the Thermostat in the Dining Room when temperature above.",
-        "input": "when temperature above in the Dining Room",
-        "output": "start the Thermostat in the Dining Room.",
-        "ltl_formula": "G(when_temperature_above_in_Dining_Room -> X(start_Thermostat_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to deactivate when window closes.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Activate the Window Sensor in the Bedroom 2 when leaving home.",
-        "input": "when leaving home in the Bedroom 2",
-        "output": "activate the Window Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_2 -> X(activate_Window_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to set to at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to set to at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(set_to_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Set to the Window Sensor in the Dining Room when leaving home.",
-        "input": "when leaving home in the Dining Room",
-        "output": "set to the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(when_leaving_home_in_Dining_Room -> X(set_to_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to turn off when motion detected.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Turn on the Chandelier in the Dining Room when temperature above.",
-        "input": "when temperature above in the Dining Room",
-        "output": "turn on the Chandelier in the Dining Room.",
-        "ltl_formula": "G(when_temperature_above_in_Dining_Room -> X(turn_on_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Air Purifier to stop when window closes.",
+        "input": "Imagine you are in the Living Room. You want the Air Purifier to stop when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(stop_Air_Purifier_in_Living_Room))"
     },
     {
-        "instruction": "Deactivate the Window Sensor in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "deactivate the Window Sensor in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(deactivate_Window_Sensor_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Lamp to turn off when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Lamp to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_off_Lamp_in_Bedroom_1))"
     },
     {
-        "instruction": "Stop the Thermostat in the Dining Room when window closes.",
-        "input": "when window closes in the Dining Room",
-        "output": "stop the Thermostat in the Dining Room.",
-        "ltl_formula": "G(when_window_closes_in_Dining_Room -> X(stop_Thermostat_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to turn on when leaving home.",
+        "input": "Imagine you are in the Bedroom 2. You want the Ceiling Fan to turn on when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(turn_on_Ceiling_Fan_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Smart Light in the Bedroom 1 when door opens.",
-        "input": "when door opens in the Bedroom 1",
-        "output": "set to the Smart Light in the Bedroom 1.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_1 -> X(set_to_Smart_Light_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the Lamp to stop when window closes.",
+        "input": "Imagine you are in the Living Room. You want the Lamp to stop when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(stop_Lamp_in_Living_Room))"
     },
     {
-        "instruction": "Activate the Smart Blind in the Bedroom 1 when leaving home.",
-        "input": "when leaving home in the Bedroom 1",
-        "output": "activate the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_1 -> X(activate_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to turn on at sunrise.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to turn on at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(turn_on_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Set to the Air Purifier in the Living Room when window closes.",
-        "input": "when window closes in the Living Room",
-        "output": "set to the Air Purifier in the Living Room.",
-        "ltl_formula": "G(when_window_closes_in_Living_Room -> X(set_to_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to turn off when leaving home.",
+        "input": "Imagine you are in the Living Room. You want the TV to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(turn_off_TV_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Thermostat in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "turn on the Thermostat in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(turn_on_Thermostat_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to set to at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to set to at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(set_to_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Door Sensor in the Bedroom 2 when motion detected.",
-        "input": "when motion detected in the Bedroom 2",
-        "output": "stop the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_2 -> X(stop_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Window Sensor to stop at sunset.",
+        "input": "Imagine you are in the Bedroom 1. You want the Window Sensor to stop at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(stop_Window_Sensor_in_Bedroom_1))"
     },
     {
-        "instruction": "Start the Door Sensor in the Living Room when leaving home.",
-        "input": "when leaving home in the Living Room",
-        "output": "start the Door Sensor in the Living Room.",
-        "ltl_formula": "G(when_leaving_home_in_Living_Room -> X(start_Door_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Lamp to deactivate when door opens.",
+        "input": "Imagine you are in the Bedroom 1. You want the Lamp to deactivate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(deactivate_Lamp_in_Bedroom_1))"
     },
     {
-        "instruction": "Start the Thermostat in the Living Room at sunrise.",
-        "input": "at sunrise in the Living Room",
-        "output": "start the Thermostat in the Living Room.",
-        "ltl_formula": "G(at_sunrise_in_Living_Room -> X(start_Thermostat_in_Living_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to activate at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Speaker to activate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(activate_Smart_Speaker_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the TV in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "stop the TV in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(stop_TV_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Lamp to turn on at sunrise.",
+        "input": "Imagine you are in the Living Room. You want the Lamp to turn on at sunrise.",
+        "output": "G(at_sunrise_in_Living_Room -> X(turn_on_Lamp_in_Living_Room))"
     },
     {
-        "instruction": "Deactivate the Thermostat in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "deactivate the Thermostat in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(deactivate_Thermostat_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to stop when door opens.",
+        "input": "Imagine you are in the Living Room. You want the Door Sensor to stop when door opens.",
+        "output": "G(when_door_opens_in_Living_Room -> X(stop_Door_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Ceiling Fan in the Bedroom 1 at sunrise.",
-        "input": "at sunrise in the Bedroom 1",
-        "output": "turn on the Ceiling Fan in the Bedroom 1.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_1 -> X(turn_on_Ceiling_Fan_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Smart Light to turn off at sunrise.",
+        "input": "Imagine you are in the Bedroom 2. You want the Smart Light to turn off at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(turn_off_Smart_Light_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Thermostat in the Dining Room when leaving home.",
-        "input": "when leaving home in the Dining Room",
-        "output": "set to the Thermostat in the Dining Room.",
-        "ltl_formula": "G(when_leaving_home_in_Dining_Room -> X(set_to_Thermostat_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Thermostat to turn off when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Thermostat to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_off_Thermostat_in_Living_Room))"
     },
     {
-        "instruction": "Turn off the Window Sensor in the Dining Room when door opens.",
-        "input": "when door opens in the Dining Room",
-        "output": "turn off the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(when_door_opens_in_Dining_Room -> X(turn_off_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Thermostat to turn off at sunset.",
+        "input": "Imagine you are in the Living Room. You want the Thermostat to turn off at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(turn_off_Thermostat_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Ceiling Fan in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "turn on the Ceiling Fan in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(turn_on_Ceiling_Fan_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to activate when leaving home.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_1 -> X(activate_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Deactivate the Window Sensor in the Bedroom 1 when door opens.",
-        "input": "when door opens in the Bedroom 1",
-        "output": "deactivate the Window Sensor in the Bedroom 1.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_1 -> X(deactivate_Window_Sensor_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Thermostat to deactivate when window closes.",
+        "input": "Imagine you are in the Bedroom 2. You want the Thermostat to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(deactivate_Thermostat_in_Bedroom_2))"
     },
     {
-        "instruction": "Stop the Smart Speaker in the Dining Room at sunrise.",
-        "input": "at sunrise in the Dining Room",
-        "output": "stop the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(at_sunrise_in_Dining_Room -> X(stop_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Window Sensor to turn on when window closes.",
+        "input": "Imagine you are in the Bedroom 2. You want the Window Sensor to turn on when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(turn_on_Window_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Stop the Thermostat in the Dining Room when door opens.",
-        "input": "when door opens in the Dining Room",
-        "output": "stop the Thermostat in the Dining Room.",
-        "ltl_formula": "G(when_door_opens_in_Dining_Room -> X(stop_Thermostat_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to set to when leaving home.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(set_to_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Turn on the Smart Speaker in the Dining Room when motion detected.",
-        "input": "when motion detected in the Dining Room",
-        "output": "turn on the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(when_motion_detected_in_Dining_Room -> X(turn_on_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Blind to turn off when window closes.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Blind to turn off when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_1 -> X(turn_off_Smart_Blind_in_Bedroom_1))"
     },
     {
-        "instruction": "Start the Thermostat in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "start the Thermostat in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(start_Thermostat_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to turn off at sunrise.",
+        "input": "Imagine you are in the Living Room. You want the TV to turn off at sunrise.",
+        "output": "G(at_sunrise_in_Living_Room -> X(turn_off_TV_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Ceiling Fan in the Bedroom 1 when temperature above.",
-        "input": "when temperature above in the Bedroom 1",
-        "output": "set to the Ceiling Fan in the Bedroom 1.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_1 -> X(set_to_Ceiling_Fan_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Window Sensor to stop at sunrise.",
+        "input": "Imagine you are in the Bedroom 2. You want the Window Sensor to stop at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(stop_Window_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn off the Smart Bed in the Bedroom 1 when door opens.",
-        "input": "when door opens in the Bedroom 1",
-        "output": "turn off the Smart Bed in the Bedroom 1.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_1 -> X(turn_off_Smart_Bed_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Air Purifier to turn off at sunset.",
+        "input": "Imagine you are in the Bedroom 2. You want the Air Purifier to turn off at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(turn_off_Air_Purifier_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Ceiling Fan in the Bedroom 1 when door opens.",
-        "input": "when door opens in the Bedroom 1",
-        "output": "set to the Ceiling Fan in the Bedroom 1.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_1 -> X(set_to_Ceiling_Fan_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to deactivate when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Door Sensor to deactivate when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(deactivate_Door_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Thermostat in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "set to the Thermostat in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(set_to_Thermostat_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Blind to start at sunset.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Blind to start at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(start_Smart_Blind_in_Bedroom_1))"
     },
     {
-        "instruction": "Set to the Smart Speaker in the Dining Room when temperature above.",
-        "input": "when temperature above in the Dining Room",
-        "output": "set to the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(when_temperature_above_in_Dining_Room -> X(set_to_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(start_Smart_Light_in_Bedroom_1))"
     },
     {
-        "instruction": "Deactivate the Door Sensor in the Bedroom 2 when leaving home.",
-        "input": "when leaving home in the Bedroom 2",
-        "output": "deactivate the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_2 -> X(deactivate_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to turn on when door opens.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to turn on when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(turn_on_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Ceiling Fan in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "deactivate the Ceiling Fan in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(deactivate_Ceiling_Fan_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the Lamp to deactivate when window closes.",
+        "input": "Imagine you are in the Living Room. You want the Lamp to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(deactivate_Lamp_in_Living_Room))"
     },
     {
-        "instruction": "Activate the Thermostat in the Bedroom 2 at sunrise.",
-        "input": "at sunrise in the Bedroom 2",
-        "output": "activate the Thermostat in the Bedroom 2.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_2 -> X(activate_Thermostat_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to deactivate when window closes.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Speaker to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(deactivate_Smart_Speaker_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Window Sensor in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "stop the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(stop_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Window Sensor to turn off at sunset.",
+        "input": "Imagine you are in the Bedroom 1. You want the Window Sensor to turn off at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(turn_off_Window_Sensor_in_Bedroom_1))"
     },
     {
-        "instruction": "Turn off the Door Sensor in the Bedroom 2 when temperature above.",
-        "input": "when temperature above in the Bedroom 2",
-        "output": "turn off the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_2 -> X(turn_off_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to set to at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to set to at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(set_to_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Door Sensor in the Bedroom 2 when temperature above.",
-        "input": "when temperature above in the Bedroom 2",
-        "output": "turn off the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_2 -> X(turn_off_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to turn off when temperature above.",
+        "input": "Imagine you are in the Living Room. You want the Window Sensor to turn off when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(turn_off_Window_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Air Purifier in the Bedroom 2 when door opens.",
-        "input": "when door opens in the Bedroom 2",
-        "output": "set to the Air Purifier in the Bedroom 2.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_2 -> X(set_to_Air_Purifier_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Window Sensor to set to when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Window Sensor to set to when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(set_to_Window_Sensor_in_Bedroom_1))"
     },
     {
-        "instruction": "Set to the Smart Speaker in the Dining Room when leaving home.",
-        "input": "when leaving home in the Dining Room",
-        "output": "set to the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(when_leaving_home_in_Dining_Room -> X(set_to_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to start when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to start when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(start_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Start the Air Purifier in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "start the Air Purifier in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(start_Air_Purifier_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to deactivate at sunset.",
+        "input": "Imagine you are in the Living Room. You want the Window Sensor to deactivate at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(deactivate_Window_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Activate the Speaker in the Living Room when motion detected.",
-        "input": "when motion detected in the Living Room",
-        "output": "activate the Speaker in the Living Room.",
-        "ltl_formula": "G(when_motion_detected_in_Living_Room -> X(activate_Speaker_in_Living_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to stop at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to stop at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(stop_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Window Sensor in the Dining Room when motion detected.",
-        "input": "when motion detected in the Dining Room",
-        "output": "turn off the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(when_motion_detected_in_Dining_Room -> X(turn_off_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to activate when window closes.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to activate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(activate_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Window Sensor in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "deactivate the Window Sensor in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(deactivate_Window_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Thermostat to deactivate when door opens.",
+        "input": "Imagine you are in the Living Room. You want the Thermostat to deactivate when door opens.",
+        "output": "G(when_door_opens_in_Living_Room -> X(deactivate_Thermostat_in_Living_Room))"
     },
     {
-        "instruction": "Stop the Smart Light in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "stop the Smart Light in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(stop_Smart_Light_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Smart Light to stop when motion detected.",
+        "input": "Imagine you are in the Bedroom 2. You want the Smart Light to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(stop_Smart_Light_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Smart Bed in the Bedroom 1 when motion detected.",
-        "input": "when motion detected in the Bedroom 1",
-        "output": "set to the Smart Bed in the Bedroom 1.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_1 -> X(set_to_Smart_Bed_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to stop when motion detected.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(stop_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Set to the Smart Light in the Dining Room when temperature above.",
-        "input": "when temperature above in the Dining Room",
-        "output": "set to the Smart Light in the Dining Room.",
-        "ltl_formula": "G(when_temperature_above_in_Dining_Room -> X(set_to_Smart_Light_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to set to at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to set to at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(set_to_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Thermostat in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "deactivate the Thermostat in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(deactivate_Thermostat_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Lamp to deactivate when window closes.",
+        "input": "Imagine you are in the Living Room. You want the Lamp to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(deactivate_Lamp_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Lamp in the Bedroom 1 when window closes.",
-        "input": "when window closes in the Bedroom 1",
-        "output": "turn on the Lamp in the Bedroom 1.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_1 -> X(turn_on_Lamp_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Thermostat to turn off when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Thermostat to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_off_Thermostat_in_Bedroom_1))"
     },
     {
-        "instruction": "Set to the Window Sensor in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "set to the Window Sensor in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(set_to_Window_Sensor_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Smart Light to deactivate at sunset.",
+        "input": "Imagine you are in the Bedroom 2. You want the Smart Light to deactivate at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(deactivate_Smart_Light_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Smart Blind in the Bedroom 1 when window closes.",
-        "input": "when window closes in the Bedroom 1",
-        "output": "set to the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_1 -> X(set_to_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to set to when door opens.",
+        "input": "Imagine you are in the Dining Room. You want the Window Sensor to set to when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(set_to_Window_Sensor_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Window Sensor in the Bedroom 2 when leaving home.",
-        "input": "when leaving home in the Bedroom 2",
-        "output": "stop the Window Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_2 -> X(stop_Window_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to deactivate at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Speaker to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Smart_Speaker_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Lamp in the Bedroom 2 when door opens.",
-        "input": "when door opens in the Bedroom 2",
-        "output": "deactivate the Lamp in the Bedroom 2.",
-        "ltl_formula": "G(when_door_opens_in_Bedroom_2 -> X(deactivate_Lamp_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to stop at sunset.",
+        "input": "Imagine you are in the Living Room. You want the Window Sensor to stop at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(stop_Window_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Activate the Chandelier in the Dining Room when door opens.",
-        "input": "when door opens in the Dining Room",
-        "output": "activate the Chandelier in the Dining Room.",
-        "ltl_formula": "G(when_door_opens_in_Dining_Room -> X(activate_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Lamp to activate when leaving home.",
+        "input": "Imagine you are in the Bedroom 2. You want the Lamp to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(activate_Lamp_in_Bedroom_2))"
     },
     {
-        "instruction": "Stop the Lamp in the Bedroom 2 at sunset.",
-        "input": "at sunset in the Bedroom 2",
-        "output": "stop the Lamp in the Bedroom 2.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_2 -> X(stop_Lamp_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to deactivate at sunset.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to deactivate at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(deactivate_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Ceiling Fan in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "turn off the Ceiling Fan in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(turn_off_Ceiling_Fan_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to deactivate at sunrise.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Air Purifier in the Living Room when window closes.",
-        "input": "when window closes in the Living Room",
-        "output": "stop the Air Purifier in the Living Room.",
-        "ltl_formula": "G(when_window_closes_in_Living_Room -> X(stop_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Window Sensor to stop at sunset.",
+        "input": "Imagine you are in the Bedroom 2. You want the Window Sensor to stop at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(stop_Window_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Set to the Smart Light in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "set to the Smart Light in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(set_to_Smart_Light_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to turn on when window closes.",
+        "input": "Imagine you are in the Dining Room. You want the Window Sensor to turn on when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(turn_on_Window_Sensor_in_Dining_Room))"
     },
     {
-        "instruction": "Turn on the Air Purifier in the Living Room when door opens.",
-        "input": "when door opens in the Living Room",
-        "output": "turn on the Air Purifier in the Living Room.",
-        "ltl_formula": "G(when_door_opens_in_Living_Room -> X(turn_on_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Door Sensor to activate when leaving home.",
+        "input": "Imagine you are in the Bedroom 2. You want the Door Sensor to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(activate_Door_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn on the Ceiling Fan in the Bedroom 2 when temperature above.",
-        "input": "when temperature above in the Bedroom 2",
-        "output": "turn on the Ceiling Fan in the Bedroom 2.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_2 -> X(turn_on_Ceiling_Fan_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Window Sensor to deactivate when door opens.",
+        "input": "Imagine you are in the Bedroom 1. You want the Window Sensor to deactivate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(deactivate_Window_Sensor_in_Bedroom_1))"
     },
     {
-        "instruction": "Set to the Smart Light in the Bedroom 1 at sunset.",
-        "input": "at sunset in the Bedroom 1",
-        "output": "set to the Smart Light in the Bedroom 1.",
-        "ltl_formula": "G(at_sunset_in_Bedroom_1 -> X(set_to_Smart_Light_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Bed to set to when door opens.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Bed to set to when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(set_to_Smart_Bed_in_Bedroom_1))"
     },
     {
-        "instruction": "Stop the Window Sensor in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "stop the Window Sensor in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(stop_Window_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Air Purifier to stop when door opens.",
+        "input": "Imagine you are in the Bedroom 2. You want the Air Purifier to stop when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(stop_Air_Purifier_in_Bedroom_2))"
     },
     {
-        "instruction": "Deactivate the Air Purifier in the Living Room at sunset.",
-        "input": "at sunset in the Living Room",
-        "output": "deactivate the Air Purifier in the Living Room.",
-        "ltl_formula": "G(at_sunset_in_Living_Room -> X(deactivate_Air_Purifier_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to deactivate at sunset.",
+        "input": "Imagine you are in the Living Room. You want the Window Sensor to deactivate at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(deactivate_Window_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Turn off the Ceiling Fan in the Bedroom 2 when motion detected.",
-        "input": "when motion detected in the Bedroom 2",
-        "output": "turn off the Ceiling Fan in the Bedroom 2.",
-        "ltl_formula": "G(when_motion_detected_in_Bedroom_2 -> X(turn_off_Ceiling_Fan_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Thermostat to activate at sunrise.",
+        "input": "Imagine you are in the Bedroom 2. You want the Thermostat to activate at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(activate_Thermostat_in_Bedroom_2))"
     },
     {
-        "instruction": "Deactivate the Smart Blind in the Bedroom 1 at sunrise.",
-        "input": "at sunrise in the Bedroom 1",
-        "output": "deactivate the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(at_sunrise_in_Bedroom_1 -> X(deactivate_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to activate when motion detected.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(activate_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Window Sensor in the Living Room when leaving home.",
-        "input": "when leaving home in the Living Room",
-        "output": "deactivate the Window Sensor in the Living Room.",
-        "ltl_formula": "G(when_leaving_home_in_Living_Room -> X(deactivate_Window_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Ceiling Fan to stop when leaving home.",
+        "input": "Imagine you are in the Bedroom 1. You want the Ceiling Fan to stop when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_1 -> X(stop_Ceiling_Fan_in_Bedroom_1))"
     },
     {
-        "instruction": "Turn on the Air Purifier in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "turn on the Air Purifier in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(turn_on_Air_Purifier_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to start when temperature above.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to start when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(start_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Smart Blind in the Bedroom 1 when temperature above.",
-        "input": "when temperature above in the Bedroom 1",
-        "output": "stop the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_1 -> X(stop_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to turn on when window closes.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Light to turn on when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(turn_on_Smart_Light_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Window Sensor in the Bedroom 1 when window closes.",
-        "input": "when window closes in the Bedroom 1",
-        "output": "stop the Window Sensor in the Bedroom 1.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_1 -> X(stop_Window_Sensor_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to activate when door opens.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to activate when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(activate_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Start the Speaker in the Living Room at sunset.",
-        "input": "at sunset in the Living Room",
-        "output": "start the Speaker in the Living Room.",
-        "ltl_formula": "G(at_sunset_in_Living_Room -> X(start_Speaker_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Lamp to start when door opens.",
+        "input": "Imagine you are in the Bedroom 1. You want the Lamp to start when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(start_Lamp_in_Bedroom_1))"
     },
     {
-        "instruction": "Turn on the Thermostat in the Dining Room when leaving home.",
-        "input": "when leaving home in the Dining Room",
-        "output": "turn on the Thermostat in the Dining Room.",
-        "ltl_formula": "G(when_leaving_home_in_Dining_Room -> X(turn_on_Thermostat_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to turn off when motion detected.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Lamp in the Living Room when temperature above.",
-        "input": "when temperature above in the Living Room",
-        "output": "stop the Lamp in the Living Room.",
-        "ltl_formula": "G(when_temperature_above_in_Living_Room -> X(stop_Lamp_in_Living_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to set to when leaving home.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(set_to_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Door Sensor in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "deactivate the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(deactivate_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to stop when door opens.",
+        "input": "Imagine you are in the Dining Room. You want the Window Sensor to stop when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(stop_Window_Sensor_in_Dining_Room))"
     },
     {
-        "instruction": "Turn off the Window Sensor in the Dining Room when door opens.",
-        "input": "when door opens in the Dining Room",
-        "output": "turn off the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(when_door_opens_in_Dining_Room -> X(turn_off_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to start when leaving home.",
+        "input": "Imagine you are in the Dining Room. You want the Thermostat to start when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(start_Thermostat_in_Dining_Room))"
     },
     {
-        "instruction": "Set to the Window Sensor in the Bedroom 1 when temperature above.",
-        "input": "when temperature above in the Bedroom 1",
-        "output": "set to the Window Sensor in the Bedroom 1.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_1 -> X(set_to_Window_Sensor_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the Thermostat to stop when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Thermostat to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(stop_Thermostat_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Smart Blind in the Bedroom 1 when window closes.",
-        "input": "when window closes in the Bedroom 1",
-        "output": "turn on the Smart Blind in the Bedroom 1.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_1 -> X(turn_on_Smart_Blind_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Window Sensor to activate when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Window Sensor to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(activate_Window_Sensor_in_Bedroom_1))"
     },
     {
-        "instruction": "Stop the Smart Speaker in the Dining Room when motion detected.",
-        "input": "when motion detected in the Dining Room",
-        "output": "stop the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(when_motion_detected_in_Dining_Room -> X(stop_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Lamp to activate at sunset.",
+        "input": "Imagine you are in the Bedroom 1. You want the Lamp to activate at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(activate_Lamp_in_Bedroom_1))"
     },
     {
-        "instruction": "Deactivate the Chandelier in the Dining Room at sunset.",
-        "input": "at sunset in the Dining Room",
-        "output": "deactivate the Chandelier in the Dining Room.",
-        "ltl_formula": "G(at_sunset_in_Dining_Room -> X(deactivate_Chandelier_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to turn on when leaving home.",
+        "input": "Imagine you are in the Living Room. You want the Window Sensor to turn on when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(turn_on_Window_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Lamp in the Bedroom 1 when window closes.",
-        "input": "when window closes in the Bedroom 1",
-        "output": "set to the Lamp in the Bedroom 1.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_1 -> X(set_to_Lamp_in_Bedroom_1))"
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to turn off when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Door Sensor to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_off_Door_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Activate the Speaker in the Living Room when leaving home.",
-        "input": "when leaving home in the Living Room",
-        "output": "activate the Speaker in the Living Room.",
-        "ltl_formula": "G(when_leaving_home_in_Living_Room -> X(activate_Speaker_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Lamp to deactivate when window closes.",
+        "input": "Imagine you are in the Bedroom 2. You want the Lamp to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(deactivate_Lamp_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn on the Door Sensor in the Bedroom 2 when window closes.",
-        "input": "when window closes in the Bedroom 2",
-        "output": "turn on the Door Sensor in the Bedroom 2.",
-        "ltl_formula": "G(when_window_closes_in_Bedroom_2 -> X(turn_on_Door_Sensor_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to set to when leaving home.",
+        "input": "Imagine you are in the Dining Room. You want the Chandelier to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(set_to_Chandelier_in_Dining_Room))"
     },
     {
-        "instruction": "Deactivate the Thermostat in the Bedroom 2 when leaving home.",
-        "input": "when leaving home in the Bedroom 2",
-        "output": "deactivate the Thermostat in the Bedroom 2.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_2 -> X(deactivate_Thermostat_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to stop when temperature above.",
+        "input": "Imagine you are in the Dining Room. You want the Smart Speaker to stop when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(stop_Smart_Speaker_in_Dining_Room))"
     },
     {
-        "instruction": "Stop the Smart Speaker in the Dining Room when window closes.",
-        "input": "when window closes in the Dining Room",
-        "output": "stop the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(when_window_closes_in_Dining_Room -> X(stop_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to stop when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the Door Sensor to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(stop_Door_Sensor_in_Living_Room))"
     },
     {
-        "instruction": "Turn on the Smart Light in the Bedroom 2 when temperature above.",
-        "input": "when temperature above in the Bedroom 2",
-        "output": "turn on the Smart Light in the Bedroom 2.",
-        "ltl_formula": "G(when_temperature_above_in_Bedroom_2 -> X(turn_on_Smart_Light_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Smart Blind to stop at sunrise.",
+        "input": "Imagine you are in the Bedroom 1. You want the Smart Blind to stop at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(stop_Smart_Blind_in_Bedroom_1))"
     },
     {
-        "instruction": "Turn off the Speaker in the Living Room when window closes.",
-        "input": "when window closes in the Living Room",
-        "output": "turn off the Speaker in the Living Room.",
-        "ltl_formula": "G(when_window_closes_in_Living_Room -> X(turn_off_Speaker_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Lamp to start when motion detected.",
+        "input": "Imagine you are in the Bedroom 1. You want the Lamp to start when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(start_Lamp_in_Bedroom_1))"
     },
     {
-        "instruction": "Deactivate the Air Purifier in the Bedroom 2 when leaving home.",
-        "input": "when leaving home in the Bedroom 2",
-        "output": "deactivate the Air Purifier in the Bedroom 2.",
-        "ltl_formula": "G(when_leaving_home_in_Bedroom_2 -> X(deactivate_Air_Purifier_in_Bedroom_2))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Air Purifier to stop when motion detected.",
+        "input": "Imagine you are in the Bedroom 2. You want the Air Purifier to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(stop_Air_Purifier_in_Bedroom_2))"
     },
     {
-        "instruction": "Turn on the TV in the Living Room when motion detected.",
-        "input": "when motion detected in the Living Room",
-        "output": "turn on the TV in the Living Room.",
-        "ltl_formula": "G(when_motion_detected_in_Living_Room -> X(turn_on_TV_in_Living_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Air Purifier to start when leaving home.",
+        "input": "Imagine you are in the Bedroom 2. You want the Air Purifier to start when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(start_Air_Purifier_in_Bedroom_2))"
     },
     {
-        "instruction": "Start the Window Sensor in the Dining Room when window closes.",
-        "input": "when window closes in the Dining Room",
-        "output": "start the Window Sensor in the Dining Room.",
-        "ltl_formula": "G(when_window_closes_in_Dining_Room -> X(start_Window_Sensor_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 2. You want the Door Sensor to activate when temperature above.",
+        "input": "Imagine you are in the Bedroom 2. You want the Door Sensor to activate when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(activate_Door_Sensor_in_Bedroom_2))"
     },
     {
-        "instruction": "Stop the Window Sensor in the Living Room when motion detected.",
-        "input": "when motion detected in the Living Room",
-        "output": "stop the Window Sensor in the Living Room.",
-        "ltl_formula": "G(when_motion_detected_in_Living_Room -> X(stop_Window_Sensor_in_Living_Room))"
+        "instruction": "Imagine you are in the Living Room. You want the TV to deactivate when motion detected.",
+        "input": "Imagine you are in the Living Room. You want the TV to deactivate when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(deactivate_TV_in_Living_Room))"
     },
     {
-        "instruction": "Set to the Smart Speaker in the Dining Room when door opens.",
-        "input": "when door opens in the Dining Room",
-        "output": "set to the Smart Speaker in the Dining Room.",
-        "ltl_formula": "G(when_door_opens_in_Dining_Room -> X(set_to_Smart_Speaker_in_Dining_Room))"
+        "instruction": "Imagine you are in the Bedroom 1. You want the Thermostat to turn off when temperature above.",
+        "input": "Imagine you are in the Bedroom 1. You want the Thermostat to turn off when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_1 -> X(turn_off_Thermostat_in_Bedroom_1))"
     }
 ]
