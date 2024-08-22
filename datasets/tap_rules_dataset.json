@@ -1,0 +1,602 @@
+[
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(turn_off_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Lamp to turn on when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_on_Lamp_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Light to activate at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(activate_Smart_Light_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Smart Light to activate at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(activate_Smart_Light_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Ceiling Fan to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(set_to_Ceiling_Fan_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Door Sensor to turn off when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_off_Door_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Speaker to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(set_to_Speaker_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Window Sensor to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(stop_Window_Sensor_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Lamp to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(activate_Lamp_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Window Sensor to start at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(start_Window_Sensor_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Thermostat to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(set_to_Thermostat_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(deactivate_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(start_Smart_Light_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Thermostat to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(turn_on_Thermostat_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Window Sensor to turn off when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_off_Window_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Speaker to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_off_Speaker_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Window Sensor to stop at sunrise.",
+        "output": "G(at_sunrise_in_Living_Room -> X(stop_Window_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Ceiling Fan to turn on when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(turn_on_Ceiling_Fan_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to stop when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(stop_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to turn off when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(turn_off_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Thermostat to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(turn_off_Thermostat_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Window Sensor to start when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(start_Window_Sensor_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(activate_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to start when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_1 -> X(start_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Lamp to activate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(activate_Lamp_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Window Sensor to activate at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(activate_Window_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Thermostat to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(stop_Thermostat_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Thermostat to turn off when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(turn_off_Thermostat_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Smart Light to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(turn_on_Smart_Light_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(activate_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to turn on at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(turn_on_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to stop when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(stop_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to deactivate when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(deactivate_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Blind to turn on when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_1 -> X(turn_on_Smart_Blind_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to turn off when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Lamp to activate when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(activate_Lamp_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to turn off when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_1 -> X(turn_off_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Window Sensor to turn on when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(turn_on_Window_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Ceiling Fan to start when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(start_Ceiling_Fan_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to activate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(activate_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Lamp to set to at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(set_to_Lamp_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Speaker to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Smart_Speaker_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Speaker to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(turn_off_Speaker_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to turn on when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(turn_on_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Smart Light to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(set_to_Smart_Light_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Lamp to set to when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(set_to_Lamp_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Door Sensor to activate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(activate_Door_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Window Sensor to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(turn_on_Window_Sensor_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Air Purifier to turn on when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(turn_on_Air_Purifier_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Window Sensor to stop when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(stop_Window_Sensor_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to turn off at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(turn_off_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Ceiling Fan to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_on_Ceiling_Fan_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Window Sensor to deactivate when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(deactivate_Window_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(start_Smart_Light_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Door Sensor to turn on when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_on_Door_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Window Sensor to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_off_Window_Sensor_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Air Purifier to stop when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(stop_Air_Purifier_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Thermostat to turn off when door opens.",
+        "output": "G(when_door_opens_in_Living_Room -> X(turn_off_Thermostat_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Air Purifier to start when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(start_Air_Purifier_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to stop when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(stop_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(deactivate_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to set to at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(set_to_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Air Purifier to stop when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(stop_Air_Purifier_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Lamp to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_off_Lamp_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Ceiling Fan to turn on when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(turn_on_Ceiling_Fan_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Lamp to stop when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(stop_Lamp_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to turn on at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(turn_on_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to turn off when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(turn_off_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to set to at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(set_to_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Window Sensor to stop at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(stop_Window_Sensor_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Lamp to deactivate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(deactivate_Lamp_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Speaker to activate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(activate_Smart_Speaker_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Lamp to turn on at sunrise.",
+        "output": "G(at_sunrise_in_Living_Room -> X(turn_on_Lamp_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Door Sensor to stop when door opens.",
+        "output": "G(when_door_opens_in_Living_Room -> X(stop_Door_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Smart Light to turn off at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(turn_off_Smart_Light_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Thermostat to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_off_Thermostat_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Thermostat to turn off at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(turn_off_Thermostat_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_1 -> X(activate_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Thermostat to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(deactivate_Thermostat_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Window Sensor to turn on when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(turn_on_Window_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(set_to_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Blind to turn off when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_1 -> X(turn_off_Smart_Blind_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to turn off at sunrise.",
+        "output": "G(at_sunrise_in_Living_Room -> X(turn_off_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Window Sensor to stop at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(stop_Window_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Air Purifier to turn off at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(turn_off_Air_Purifier_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Door Sensor to deactivate when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(deactivate_Door_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Blind to start at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(start_Smart_Blind_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Light to start at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(start_Smart_Light_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to turn on when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(turn_on_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Lamp to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(deactivate_Lamp_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Speaker to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(deactivate_Smart_Speaker_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Window Sensor to turn off at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(turn_off_Window_Sensor_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to set to at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(set_to_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Window Sensor to turn off when temperature above.",
+        "output": "G(when_temperature_above_in_Living_Room -> X(turn_off_Window_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Window Sensor to set to when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(set_to_Window_Sensor_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to start when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(start_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Window Sensor to deactivate at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(deactivate_Window_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to stop at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(stop_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to activate when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(activate_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Thermostat to deactivate when door opens.",
+        "output": "G(when_door_opens_in_Living_Room -> X(deactivate_Thermostat_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Smart Light to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(stop_Smart_Light_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(stop_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to set to at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(set_to_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Lamp to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Living_Room -> X(deactivate_Lamp_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Thermostat to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(turn_off_Thermostat_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Smart Light to deactivate at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(deactivate_Smart_Light_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Window Sensor to set to when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(set_to_Window_Sensor_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Speaker to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Smart_Speaker_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Window Sensor to stop at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(stop_Window_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Lamp to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(activate_Lamp_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to deactivate at sunset.",
+        "output": "G(at_sunset_in_Dining_Room -> X(deactivate_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to deactivate at sunrise.",
+        "output": "G(at_sunrise_in_Dining_Room -> X(deactivate_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Window Sensor to stop at sunset.",
+        "output": "G(at_sunset_in_Bedroom_2 -> X(stop_Window_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Window Sensor to turn on when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(turn_on_Window_Sensor_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Door Sensor to activate when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(activate_Door_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Window Sensor to deactivate when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(deactivate_Window_Sensor_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Bed to set to when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(set_to_Smart_Bed_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Air Purifier to stop when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_2 -> X(stop_Air_Purifier_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Window Sensor to deactivate at sunset.",
+        "output": "G(at_sunset_in_Living_Room -> X(deactivate_Window_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Thermostat to activate at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_2 -> X(activate_Thermostat_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(activate_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Ceiling Fan to stop when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_1 -> X(stop_Ceiling_Fan_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to start when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(start_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Light to turn on when window closes.",
+        "output": "G(when_window_closes_in_Dining_Room -> X(turn_on_Smart_Light_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to activate when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(activate_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Lamp to start when door opens.",
+        "output": "G(when_door_opens_in_Bedroom_1 -> X(start_Lamp_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Dining_Room -> X(turn_off_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(set_to_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Window Sensor to stop when door opens.",
+        "output": "G(when_door_opens_in_Dining_Room -> X(stop_Window_Sensor_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Thermostat to start when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(start_Thermostat_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Thermostat to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(stop_Thermostat_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Window Sensor to activate when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(activate_Window_Sensor_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Lamp to activate at sunset.",
+        "output": "G(at_sunset_in_Bedroom_1 -> X(activate_Lamp_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Window Sensor to turn on when leaving home.",
+        "output": "G(when_leaving_home_in_Living_Room -> X(turn_on_Window_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Door Sensor to turn off when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(turn_off_Door_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Lamp to deactivate when window closes.",
+        "output": "G(when_window_closes_in_Bedroom_2 -> X(deactivate_Lamp_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Chandelier to set to when leaving home.",
+        "output": "G(when_leaving_home_in_Dining_Room -> X(set_to_Chandelier_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Dining Room. You want the Smart Speaker to stop when temperature above.",
+        "output": "G(when_temperature_above_in_Dining_Room -> X(stop_Smart_Speaker_in_Dining_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the Door Sensor to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(stop_Door_Sensor_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Smart Blind to stop at sunrise.",
+        "output": "G(at_sunrise_in_Bedroom_1 -> X(stop_Smart_Blind_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Lamp to start when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_1 -> X(start_Lamp_in_Bedroom_1))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Air Purifier to stop when motion detected.",
+        "output": "G(when_motion_detected_in_Bedroom_2 -> X(stop_Air_Purifier_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Air Purifier to start when leaving home.",
+        "output": "G(when_leaving_home_in_Bedroom_2 -> X(start_Air_Purifier_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 2. You want the Door Sensor to activate when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_2 -> X(activate_Door_Sensor_in_Bedroom_2))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Living Room. You want the TV to deactivate when motion detected.",
+        "output": "G(when_motion_detected_in_Living_Room -> X(deactivate_TV_in_Living_Room))"
+    },
+    {
+        "input": "Generate the LTL formula for the scenario: Imagine you are in the Bedroom 1. You want the Thermostat to turn off when temperature above.",
+        "output": "G(when_temperature_above_in_Bedroom_1 -> X(turn_off_Thermostat_in_Bedroom_1))"
+    }
+]

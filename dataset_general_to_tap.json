@@ -1,0 +1,402 @@
+[
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Door Sensor to deactivate when motion is detected.",
+        "output": "In Bedroom 2, When motion is detected, the Door Sensor should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to activate when the window closes.",
+        "output": "In Dining Room, When window closes, the Smart Light should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Smart Light to turn off at sunset.",
+        "output": "In Living Room, At sunset, the Smart Light should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to stop at sunrise.",
+        "output": "In Bedroom 2, At sunrise, the Window Sensor should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to turn off when motion is detected.",
+        "output": "In Living Room, When motion is detected, the TV should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to activate when the window closes.",
+        "output": "In Dining Room, When window closes, the Chandelier should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to stop at sunrise.",
+        "output": "In Bedroom 1, At sunrise, the Ceiling Fan should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to turn on when the window closes.",
+        "output": "In Bedroom 2, When window closes, the Smart Bed should start."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to deactivate when temperature is above.",
+        "output": "In Dining Room, When temperature is above, the Thermostat should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to deactivate when motion is detected.",
+        "output": "In Bedroom 1, When motion is detected, the Ceiling Fan should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to deactivate at sunset.",
+        "output": "In Bedroom 2, At sunset, the Smart Bed should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to turn on at sunrise.",
+        "output": "In Dining Room, At sunrise, the Window Sensor should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Lamp to turn off when motion is detected.",
+        "output": "In Bedroom 2, When motion is detected, the Lamp should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Air Purifier to turn off at sunrise.",
+        "output": "In Bedroom 2, At sunrise, the Air Purifier should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to deactivate at sunrise.",
+        "output": "In Bedroom 1, At sunrise, the Window Sensor should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to deactivate at sunrise.",
+        "output": "In Bedroom 2, At sunrise, the Smart Bed should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Door Sensor to turn off when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Door Sensor should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to turn on at sunset.",
+        "output": "In Dining Room, At sunset, the Smart Light should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to deactivate when the door opens.",
+        "output": "In Bedroom 2, When door opens, the Window Sensor should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to start at sunset.",
+        "output": "In Bedroom 1, At sunset, the Window Sensor should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Lamp to turn off when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Lamp should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Smart Light to activate at sunset.",
+        "output": "In Living Room, At sunset, the Smart Light should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Air Purifier to turn on when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Air Purifier should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to set to when motion is detected.",
+        "output": "In Bedroom 1, When motion is detected, the Ceiling Fan should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to turn on when the window closes.",
+        "output": "In Living Room, When window closes, the Door Sensor should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to deactivate when motion is detected.",
+        "output": "In Bedroom 1, When motion is detected, the Window Sensor should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to activate when the window closes.",
+        "output": "In Living Room, When window closes, the TV should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Smart Light to turn off when temperature is above.",
+        "output": "In Living Room, When temperature is above, the Smart Light should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to deactivate when motion is detected.",
+        "output": "In Bedroom 2, When motion is detected, the Smart Bed should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to activate when temperature is above.",
+        "output": "In Bedroom 1, When temperature is above, the Ceiling Fan should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to turn on when the door opens.",
+        "output": "In Living Room, When door opens, the Window Sensor should start."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to deactivate when temperature is above.",
+        "output": "In Dining Room, When temperature is above, the Smart Speaker should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to turn off when the window closes.",
+        "output": "In Dining Room, When window closes, the Chandelier should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to turn off at sunset.",
+        "output": "In Bedroom 2, At sunset, the Smart Bed should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to turn on at sunset.",
+        "output": "In Dining Room, At sunset, the Window Sensor should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Window Sensor to start when the window closes.",
+        "output": "In Dining Room, When window closes, the Window Sensor should start."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to set to when the door opens.",
+        "output": "In Dining Room, When door opens, the Thermostat should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to start when temperature is above.",
+        "output": "In Living Room, When temperature is above, the TV should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to deactivate at sunrise.",
+        "output": "In Bedroom 2, At sunrise, the Window Sensor should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Door Sensor to turn off when motion is detected.",
+        "output": "In Bedroom 2, When motion is detected, the Door Sensor should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Door Sensor to stop at sunset.",
+        "output": "In Bedroom 1, At sunset, the Door Sensor should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to start when the door opens.",
+        "output": "In Dining Room, When door opens, the Smart Speaker should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to start when the window closes.",
+        "output": "In Dining Room, When window closes, the Smart Light should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to turn on at sunset.",
+        "output": "In Dining Room, At sunset, the Chandelier should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Smart Light to deactivate when temperature is above.",
+        "output": "In Living Room, When temperature is above, the Smart Light should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Light to start at sunset.",
+        "output": "In Bedroom 1, At sunset, the Smart Light should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to deactivate when motion is detected.",
+        "output": "In Bedroom 2, When motion is detected, the Window Sensor should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to turn off at sunrise.",
+        "output": "In Bedroom 2, At sunrise, the Window Sensor should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to stop when motion is detected.",
+        "output": "In Bedroom 1, When motion is detected, the Window Sensor should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to set to when the window closes.",
+        "output": "In Bedroom 2, When window closes, the Window Sensor should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Thermostat to start when temperature is above.",
+        "output": "In Bedroom 1, When temperature is above, the Thermostat should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to activate when motion is detected.",
+        "output": "In Bedroom 1, When motion is detected, the Window Sensor should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to turn off when the window closes.",
+        "output": "In Living Room, When window closes, the Door Sensor should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to deactivate at sunrise.",
+        "output": "In Living Room, At sunrise, the TV should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to start at sunrise.",
+        "output": "In Living Room, At sunrise, the Window Sensor should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Lamp to turn on when the door opens.",
+        "output": "In Bedroom 2, When door opens, the Lamp should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Thermostat to start when motion is detected.",
+        "output": "In Bedroom 1, When motion is detected, the Thermostat should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Smart Light to activate when temperature is above.",
+        "output": "In Living Room, When temperature is above, the Smart Light should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Smart Light to start when the door opens.",
+        "output": "In Living Room, When door opens, the Smart Light should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to turn on when motion is detected.",
+        "output": "In Living Room, When motion is detected, the TV should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Air Purifier to start when the door opens.",
+        "output": "In Bedroom 2, When door opens, the Air Purifier should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to activate at sunrise.",
+        "output": "In Dining Room, At sunrise, the Smart Light should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Thermostat to set to at sunrise.",
+        "output": "In Bedroom 1, At sunrise, the Thermostat should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Air Purifier to turn off when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Air Purifier should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Door Sensor to stop when temperature is above.",
+        "output": "In Bedroom 1, When temperature is above, the Door Sensor should start."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to turn on at sunset.",
+        "output": "In Dining Room, At sunset, the Thermostat should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Light to set to at sunrise.",
+        "output": "In Bedroom 1, At sunrise, the Smart Light should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to activate when motion is detected.",
+        "output": "In Bedroom 1, When motion is detected, the Ceiling Fan should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to set to when the door opens.",
+        "output": "In Living Room, When door opens, the TV should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Window Sensor to stop when motion is detected.",
+        "output": "In Living Room, When motion is detected, the Window Sensor should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to start when the door opens.",
+        "output": "In Bedroom 2, When door opens, the Window Sensor should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Light to start at sunrise.",
+        "output": "In Bedroom 1, At sunrise, the Smart Light should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to activate when the window closes.",
+        "output": "In Bedroom 2, When window closes, the Smart Bed should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to turn off when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Window Sensor should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to stop at sunrise.",
+        "output": "In Living Room, At sunrise, the Door Sensor should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to set to when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Window Sensor should start."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to turn off when motion is detected.",
+        "output": "In Bedroom 2, When motion is detected, the Window Sensor should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Door Sensor to activate when temperature is above.",
+        "output": "In Bedroom 1, When temperature is above, the Door Sensor should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to deactivate when the window closes.",
+        "output": "In Dining Room, When window closes, the Chandelier should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to deactivate when the door opens.",
+        "output": "In Bedroom 1, When door opens, the Ceiling Fan should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Light to turn on when motion is detected.",
+        "output": "In Dining Room, When motion is detected, the Smart Light should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to turn off when the door opens.",
+        "output": "In Living Room, When door opens, the TV should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to activate when the window closes.",
+        "output": "In Bedroom 1, When window closes, the Window Sensor should set to."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Chandelier to stop when the door opens.",
+        "output": "In Dining Room, When door opens, the Chandelier should start."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Smart Speaker to activate at sunset.",
+        "output": "In Dining Room, At sunset, the Smart Speaker should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Lamp to activate when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Lamp should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to set to when the door opens.",
+        "output": "In Living Room, When door opens, the Door Sensor should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to set to when temperature is above.",
+        "output": "In Bedroom 2, When temperature is above, the Smart Bed should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to set to when the window closes.",
+        "output": "In Living Room, When window closes, the TV should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to turn off when temperature is above.",
+        "output": "In Bedroom 1, When temperature is above, the Ceiling Fan should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to turn on when temperature is above.",
+        "output": "In Dining Room, When temperature is above, the Thermostat should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Lamp to start when the window closes.",
+        "output": "In Bedroom 2, When window closes, the Lamp should turn on."
+    },
+    {
+        "instruction": "Imagine you are in the Dining Room. You want the Thermostat to turn on when the window closes.",
+        "output": "In Dining Room, When window closes, the Thermostat should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Ceiling Fan to turn off when the window closes.",
+        "output": "In Bedroom 1, When window closes, the Ceiling Fan should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Smart Bed to set to at sunrise.",
+        "output": "In Bedroom 2, At sunrise, the Smart Bed should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Thermostat to stop at sunrise.",
+        "output": "In Bedroom 1, At sunrise, the Thermostat should deactivate."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to stop when the door opens.",
+        "output": "In Bedroom 2, When door opens, the Window Sensor should turn off."
+    },
+    {
+        "instruction": "Imagine you are in the Bedroom. You want the Window Sensor to activate when the window closes.",
+        "output": "In Bedroom 2, When window closes, the Window Sensor should stop."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the TV to start when the window closes.",
+        "output": "In Living Room, When window closes, the TV should activate."
+    },
+    {
+        "instruction": "Imagine you are in the Living Room. You want the Door Sensor to turn off when the door opens.",
+        "output": "In Living Room, When door opens, the Door Sensor should set to."
+    }
+]

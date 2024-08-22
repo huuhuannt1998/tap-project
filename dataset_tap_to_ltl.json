@@ -1,0 +1,402 @@
+[
+    {
+        "instruction": "In Bedroom 2, When motion is detected, the Door Sensor should turn on.",
+        "output": "G(in_bedroom_2_in_Living_Room -> X(Door_Sensor_should_turn_on._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When window closes, the Smart Light should turn on.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Smart_Light_should_turn_on._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, At sunset, the Smart Light should set to.",
+        "output": "G(in_living_room_in_Bedroom_2 -> X(Smart_Light_should_set_to._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunrise, the Window Sensor should turn on.",
+        "output": "G(in_bedroom_2_in_Living_Room -> X(Window_Sensor_should_turn_on._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, When motion is detected, the TV should turn off.",
+        "output": "G(in_living_room_in_Bedroom_1 -> X(TV_should_turn_off._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Dining Room, When window closes, the Chandelier should activate.",
+        "output": "G(in_dining_room_in_Bedroom_1 -> X(Chandelier_should_activate._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunrise, the Ceiling Fan should start.",
+        "output": "G(in_bedroom_1_in_Living_Room -> X(Ceiling_Fan_should_start._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When window closes, the Smart Bed should start.",
+        "output": "G(in_bedroom_2_in_Living_Room -> X(Smart_Bed_should_start._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When temperature is above, the Thermostat should turn on.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Thermostat_should_turn_on._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, When motion is detected, the Ceiling Fan should start.",
+        "output": "G(in_bedroom_1_in_Bedroom_2 -> X(Ceiling_Fan_should_start._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunset, the Smart Bed should set to.",
+        "output": "G(in_bedroom_2_in_Dining_Room -> X(Smart_Bed_should_set_to._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Dining Room, At sunrise, the Window Sensor should stop.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Window_Sensor_should_stop._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When motion is detected, the Lamp should turn off.",
+        "output": "G(in_bedroom_2_in_Bedroom_1 -> X(Lamp_should_turn_off._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunrise, the Air Purifier should start.",
+        "output": "G(in_bedroom_2_in_Dining_Room -> X(Air_Purifier_should_start._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunrise, the Window Sensor should stop.",
+        "output": "G(in_bedroom_1_in_Bedroom_1 -> X(Window_Sensor_should_stop._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunrise, the Smart Bed should stop.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Smart_Bed_should_stop._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Door Sensor should set to.",
+        "output": "G(in_bedroom_2_in_Dining_Room -> X(Door_Sensor_should_set_to._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Dining Room, At sunset, the Smart Light should stop.",
+        "output": "G(in_dining_room_in_Bedroom_2 -> X(Smart_Light_should_stop._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, When door opens, the Window Sensor should deactivate.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Window_Sensor_should_deactivate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunset, the Window Sensor should turn off.",
+        "output": "G(in_bedroom_1_in_Bedroom_1 -> X(Window_Sensor_should_turn_off._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Lamp should stop.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Lamp_should_stop._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Living Room, At sunset, the Smart Light should start.",
+        "output": "G(in_living_room_in_Dining_Room -> X(Smart_Light_should_start._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Air Purifier should start.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Air_Purifier_should_start._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, When motion is detected, the Ceiling Fan should set to.",
+        "output": "G(in_bedroom_1_in_Living_Room -> X(Ceiling_Fan_should_set_to._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, When window closes, the Door Sensor should activate.",
+        "output": "G(in_living_room_in_Bedroom_2 -> X(Door_Sensor_should_activate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, When motion is detected, the Window Sensor should set to.",
+        "output": "G(in_bedroom_1_in_Living_Room -> X(Window_Sensor_should_set_to._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, When window closes, the TV should stop.",
+        "output": "G(in_living_room_in_Dining_Room -> X(TV_should_stop._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Living Room, When temperature is above, the Smart Light should stop.",
+        "output": "G(in_living_room_in_Dining_Room -> X(Smart_Light_should_stop._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When motion is detected, the Smart Bed should activate.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Smart_Bed_should_activate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, When temperature is above, the Ceiling Fan should stop.",
+        "output": "G(in_bedroom_1_in_Living_Room -> X(Ceiling_Fan_should_stop._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, When door opens, the Window Sensor should start.",
+        "output": "G(in_living_room_in_Living_Room -> X(Window_Sensor_should_start._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When temperature is above, the Smart Speaker should deactivate.",
+        "output": "G(in_dining_room_in_Bedroom_1 -> X(Smart_Speaker_should_deactivate._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Dining Room, When window closes, the Chandelier should turn on.",
+        "output": "G(in_dining_room_in_Bedroom_2 -> X(Chandelier_should_turn_on._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunset, the Smart Bed should activate.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Smart_Bed_should_activate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Dining Room, At sunset, the Window Sensor should stop.",
+        "output": "G(in_dining_room_in_Dining_Room -> X(Window_Sensor_should_stop._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When window closes, the Window Sensor should start.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Window_Sensor_should_start._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When door opens, the Thermostat should deactivate.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Thermostat_should_deactivate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, When temperature is above, the TV should set to.",
+        "output": "G(in_living_room_in_Dining_Room -> X(TV_should_set_to._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunrise, the Window Sensor should activate.",
+        "output": "G(in_bedroom_2_in_Living_Room -> X(Window_Sensor_should_activate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When motion is detected, the Door Sensor should stop.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Door_Sensor_should_stop._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunset, the Door Sensor should activate.",
+        "output": "G(in_bedroom_1_in_Living_Room -> X(Door_Sensor_should_activate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When door opens, the Smart Speaker should stop.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Smart_Speaker_should_stop._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When window closes, the Smart Light should turn off.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Smart_Light_should_turn_off._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, At sunset, the Chandelier should deactivate.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Chandelier_should_deactivate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, When temperature is above, the Smart Light should turn off.",
+        "output": "G(in_living_room_in_Living_Room -> X(Smart_Light_should_turn_off._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunset, the Smart Light should deactivate.",
+        "output": "G(in_bedroom_1_in_Living_Room -> X(Smart_Light_should_deactivate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When motion is detected, the Window Sensor should activate.",
+        "output": "G(in_bedroom_2_in_Living_Room -> X(Window_Sensor_should_activate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunrise, the Window Sensor should turn on.",
+        "output": "G(in_bedroom_2_in_Living_Room -> X(Window_Sensor_should_turn_on._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, When motion is detected, the Window Sensor should set to.",
+        "output": "G(in_bedroom_1_in_Bedroom_1 -> X(Window_Sensor_should_set_to._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, When window closes, the Window Sensor should activate.",
+        "output": "G(in_bedroom_2_in_Bedroom_1 -> X(Window_Sensor_should_activate._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 1, When temperature is above, the Thermostat should start.",
+        "output": "G(in_bedroom_1_in_Bedroom_2 -> X(Thermostat_should_start._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, When motion is detected, the Window Sensor should turn off.",
+        "output": "G(in_bedroom_1_in_Dining_Room -> X(Window_Sensor_should_turn_off._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Living Room, When window closes, the Door Sensor should turn off.",
+        "output": "G(in_living_room_in_Dining_Room -> X(Door_Sensor_should_turn_off._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Living Room, At sunrise, the TV should activate.",
+        "output": "G(in_living_room_in_Living_Room -> X(TV_should_activate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, At sunrise, the Window Sensor should turn on.",
+        "output": "G(in_living_room_in_Bedroom_1 -> X(Window_Sensor_should_turn_on._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, When door opens, the Lamp should turn off.",
+        "output": "G(in_bedroom_2_in_Dining_Room -> X(Lamp_should_turn_off._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, When motion is detected, the Thermostat should turn on.",
+        "output": "G(in_bedroom_1_in_Bedroom_2 -> X(Thermostat_should_turn_on._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Living Room, When temperature is above, the Smart Light should deactivate.",
+        "output": "G(in_living_room_in_Living_Room -> X(Smart_Light_should_deactivate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Living Room, When door opens, the Smart Light should activate.",
+        "output": "G(in_living_room_in_Dining_Room -> X(Smart_Light_should_activate._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Living Room, When motion is detected, the TV should turn off.",
+        "output": "G(in_living_room_in_Bedroom_1 -> X(TV_should_turn_off._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, When door opens, the Air Purifier should activate.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Air_Purifier_should_activate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Dining Room, At sunrise, the Smart Light should set to.",
+        "output": "G(in_dining_room_in_Bedroom_1 -> X(Smart_Light_should_set_to._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunrise, the Thermostat should deactivate.",
+        "output": "G(in_bedroom_1_in_Dining_Room -> X(Thermostat_should_deactivate._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Air Purifier should start.",
+        "output": "G(in_bedroom_2_in_Bedroom_1 -> X(Air_Purifier_should_start._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 1, When temperature is above, the Door Sensor should start.",
+        "output": "G(in_bedroom_1_in_Bedroom_1 -> X(Door_Sensor_should_start._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Dining Room, At sunset, the Thermostat should stop.",
+        "output": "G(in_dining_room_in_Dining_Room -> X(Thermostat_should_stop._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunrise, the Smart Light should stop.",
+        "output": "G(in_bedroom_1_in_Bedroom_2 -> X(Smart_Light_should_stop._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, When motion is detected, the Ceiling Fan should turn off.",
+        "output": "G(in_bedroom_1_in_Bedroom_2 -> X(Ceiling_Fan_should_turn_off._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Living Room, When door opens, the TV should turn on.",
+        "output": "G(in_living_room_in_Bedroom_1 -> X(TV_should_turn_on._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Living Room, When motion is detected, the Window Sensor should stop.",
+        "output": "G(in_living_room_in_Living_Room -> X(Window_Sensor_should_stop._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When door opens, the Window Sensor should activate.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Window_Sensor_should_activate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunrise, the Smart Light should activate.",
+        "output": "G(in_bedroom_1_in_Bedroom_1 -> X(Smart_Light_should_activate._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, When window closes, the Smart Bed should activate.",
+        "output": "G(in_bedroom_2_in_Bedroom_1 -> X(Smart_Bed_should_activate._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Window Sensor should turn on.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Window_Sensor_should_turn_on._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Living Room, At sunrise, the Door Sensor should start.",
+        "output": "G(in_living_room_in_Bedroom_1 -> X(Door_Sensor_should_start._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Window Sensor should start.",
+        "output": "G(in_bedroom_2_in_Dining_Room -> X(Window_Sensor_should_start._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When motion is detected, the Window Sensor should set to.",
+        "output": "G(in_bedroom_2_in_Dining_Room -> X(Window_Sensor_should_set_to._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, When temperature is above, the Door Sensor should stop.",
+        "output": "G(in_bedroom_1_in_Dining_Room -> X(Door_Sensor_should_stop._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When window closes, the Chandelier should activate.",
+        "output": "G(in_dining_room_in_Living_Room -> X(Chandelier_should_activate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, When door opens, the Ceiling Fan should turn on.",
+        "output": "G(in_bedroom_1_in_Bedroom_1 -> X(Ceiling_Fan_should_turn_on._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Dining Room, When motion is detected, the Smart Light should activate.",
+        "output": "G(in_dining_room_in_Bedroom_2 -> X(Smart_Light_should_activate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Living Room, When door opens, the TV should deactivate.",
+        "output": "G(in_living_room_in_Bedroom_1 -> X(TV_should_deactivate._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 1, When window closes, the Window Sensor should set to.",
+        "output": "G(in_bedroom_1_in_Bedroom_2 -> X(Window_Sensor_should_set_to._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Dining Room, When door opens, the Chandelier should start.",
+        "output": "G(in_dining_room_in_Bedroom_1 -> X(Chandelier_should_start._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Dining Room, At sunset, the Smart Speaker should turn off.",
+        "output": "G(in_dining_room_in_Bedroom_2 -> X(Smart_Speaker_should_turn_off._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Lamp should activate.",
+        "output": "G(in_bedroom_2_in_Bedroom_1 -> X(Lamp_should_activate._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Living Room, When door opens, the Door Sensor should deactivate.",
+        "output": "G(in_living_room_in_Living_Room -> X(Door_Sensor_should_deactivate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, When temperature is above, the Smart Bed should turn off.",
+        "output": "G(in_bedroom_2_in_Bedroom_1 -> X(Smart_Bed_should_turn_off._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Living Room, When window closes, the TV should turn off.",
+        "output": "G(in_living_room_in_Living_Room -> X(TV_should_turn_off._in_Living_Room))"
+    },
+    {
+        "instruction": "In Bedroom 1, When temperature is above, the Ceiling Fan should deactivate.",
+        "output": "G(in_bedroom_1_in_Living_Room -> X(Ceiling_Fan_should_deactivate._in_Living_Room))"
+    },
+    {
+        "instruction": "In Dining Room, When temperature is above, the Thermostat should stop.",
+        "output": "G(in_dining_room_in_Bedroom_2 -> X(Thermostat_should_stop._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, When window closes, the Lamp should turn on.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Lamp_should_turn_on._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Dining Room, When window closes, the Thermostat should stop.",
+        "output": "G(in_dining_room_in_Bedroom_2 -> X(Thermostat_should_stop._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 1, When window closes, the Ceiling Fan should deactivate.",
+        "output": "G(in_bedroom_1_in_Dining_Room -> X(Ceiling_Fan_should_deactivate._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Bedroom 2, At sunrise, the Smart Bed should turn off.",
+        "output": "G(in_bedroom_2_in_Bedroom_1 -> X(Smart_Bed_should_turn_off._in_Bedroom_1))"
+    },
+    {
+        "instruction": "In Bedroom 1, At sunrise, the Thermostat should deactivate.",
+        "output": "G(in_bedroom_1_in_Bedroom_2 -> X(Thermostat_should_deactivate._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, When door opens, the Window Sensor should turn off.",
+        "output": "G(in_bedroom_2_in_Bedroom_2 -> X(Window_Sensor_should_turn_off._in_Bedroom_2))"
+    },
+    {
+        "instruction": "In Bedroom 2, When window closes, the Window Sensor should stop.",
+        "output": "G(in_bedroom_2_in_Dining_Room -> X(Window_Sensor_should_stop._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Living Room, When window closes, the TV should activate.",
+        "output": "G(in_living_room_in_Dining_Room -> X(TV_should_activate._in_Dining_Room))"
+    },
+    {
+        "instruction": "In Living Room, When door opens, the Door Sensor should set to.",
+        "output": "G(in_living_room_in_Living_Room -> X(Door_Sensor_should_set_to._in_Living_Room))"
+    }
+]
